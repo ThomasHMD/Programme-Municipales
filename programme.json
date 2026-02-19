@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "candidate": "Benoît Tirmarche",
+    "list": "Wasquehal Vivante",
+    "city": "Wasquehal",
+    "election": "Élections municipales 2026",
+    "tagline": "Une ville où il fait bon vivre, ensemble."
+  },
+  "themes": [
+    {
+      "id": "logement",
+      "title": "Logement",
+      "icon": "🏠",
+      "color": "#e92e6c",
+      "description": "Se loger dignement sans se ruiner. Contre un Wasquehal qui se ghettoïse.",
+      "propositions": [
+        {
+          "id": "log-1",
+          "title": "Encadrement des loyers : −10 % en moyenne",
+          "summary": "Intervenir sur le marché immobilier pour ramener les loyers à un niveau juste.",
+          "detail": "Depuis 12 ans, la politique du logement à Wasquehal a consisté à jeter les Wasquehalien·nes hors de la ville au profit d'investisseurs qui n'y habitent pas. Il y avait ⅔ de propriétaires occupants, ils ne sont plus que la moitié.\n\nLes prix du logement ne reflètent pas adéquatement la qualité des logements. L'encadrement des loyers est un des outils que nous utiliserons : nous visons une baisse moyenne de 10 % sur l'ensemble du parc locatif de la ville.\n\nÀ Wasquehal, on doit pouvoir fonder sa famille, l'agrandir, parfois se séparer, mais toujours y vieillir bien entouré.",
+          "related": ["log-2", "log-3"]
+        },
+        {
+          "id": "log-2",
+          "title": "500 logements abordables dont 150 logements sociaux",
+          "summary": "Produire du logement accessible pour ne plus payer 100 000 €/an d'amende.",
+          "detail": "Wasquehal ne respecte pas ses obligations légales en matière de logement social depuis de nombreuses années. Cela nous coûte 100 000 € d'amende par an — autant d'argent public gaspillé.\n\nNotre objectif : produire 500 logements à prix abordable sur la mandature, dont 150 logements sociaux, pour enfin respecter la loi SRU et mettre fin à cette hémorragie financière.\n\nCet accroissement de l'offre contribuera également à faire baisser les prix sur l'ensemble du marché locatif.",
+          "related": ["log-1", "log-6"]
+        },
+        {
+          "id": "log-3",
+          "title": "Service Public du Droit au Logement",
+          "summary": "Une brigade de juristes et d'experts du bâtiment pour défendre locataires et accédants à la propriété.",
+          "detail": "Nous créerons un dispositif inédit : une équipe composée de juristes et d'experts du bâtiment et de l'hygiène, qui interviendra directement pour :\n\n• Lutter contre les malfaçons, moisissures et dysfonctionnements (chauffage, insalubrité)\n• Évaluer la décence de tous les logements, privés ou sociaux\n• Accompagner les habitants dans leurs démarches de recours et contentieux\n• Contrôler annuellement les rappels de charges locatives pour éviter les abus des bailleurs\n\nCe service aidera les locataires, mais aussi les propriétaires acquéreurs, à se défendre et faire valoir leurs droits.",
+          "related": ["log-1", "log-4"]
+        },
+        {
+          "id": "log-4",
+          "title": "Logements d'urgence pour les plus fragiles",
+          "summary": "3 maisons communales transformées en logements d'urgence pour sinistres, violences domestiques et sans-abrisme.",
+          "detail": "Nous transformerons 3 maisons appartenant à la commune en logements d'urgence pour :\n\n• Les victimes de sinistres (incendie, inondation)\n• Les victimes de violence domestique\n• Les personnes sans abri\n\nNous respecterons également la législation sur les aires d'accueil pour les gens du voyage, en partenariat avec la Métropole Européenne de Lille.\n\nIl n'y aurait pas de réelle solidarité sans un filet de sécurité pour les plus fragiles.",
+          "related": ["log-3", "ser-1"]
+        },
+        {
+          "id": "log-5",
+          "title": "Bourse d'échange de logements HLM",
+          "summary": "Un dispositif d'échange direct entre locataires pour fluidifier les mutations, inspiré du modèle Échanger-Habiter (Île-de-France).",
+          "detail": "Pour faciliter la mobilité des locataires et optimiser l'occupation du parc social, nous mettrons en place une Bourse Annuelle d'Échange de Logements HLM.\n\nObjectif : permettre à chacun de trouver un logement adapté à ses besoins (famille qui s'agrandit, enfants qui partent, divorce…), renforcer la mixité dans les quartiers, et éviter les situations de sous-occupation ou de surpeuplement.\n\nUne grande bourse se tiendra deux fois par an, avec un service d'échange direct entre locataires inspiré du modèle Échanger-Habiter en Île-de-France.",
+          "related": ["log-2", "log-6"]
+        },
+        {
+          "id": "log-6",
+          "title": "Agence Communale de l'Immobilier",
+          "summary": "Remettre sur le marché les 500 logements vacants de Wasquehal grâce à une structure dédiée.",
+          "detail": "Wasquehal compte environ 500 logements vacants. Nous lancerons une Agence Communale de l'Immobilier qui :\n\n• Facilite la mise en location ou en vente des biens inoccupés\n• Sécurise les propriétaires (démarches, fiscalité, conseils)\n• Réduit les coûts de gestion locative\n• Protège les locataires (garanties, médiation)\n\nUne solution gagnant-gagnant : plus de logements disponibles, des propriétaires soutenus et des locataires protégés.",
+          "related": ["log-5", "log-1"]
+        }
+      ]
+    },
+    {
+      "id": "mobilite",
+      "title": "Mobilité & Quartiers",
+      "icon": "🚲",
+      "color": "#203a6a",
+      "description": "Des déplacements sûrs, durables et accessibles. L'espace public repensé avec les habitants.",
+      "propositions": [
+        {
+          "id": "mob-1",
+          "title": "Fini les nids de poule — routes entretenues",
+          "summary": "Réparer les routes que la MEL néglige, et leur envoyer la facture. Remplacer les dos d'âne par des chicanes.",
+          "mel": true,
+          "detail": "Laisser la MEL s'occuper de l'état des routes est une manière commode d'ignorer l'accumulation des nids de poule et le danger qu'ils représentent : dommages aux véhicules, manœuvres dangereuses pour les automobilistes, obstacles pour les cyclistes.\n\nNous réparerons les routes quand la MEL n'en assure pas l'entretien ni le respect des normes — et nous leur enverrons la facture.\n\nNous remplacerons progressivement les dos d'âne par des chicanes : une méthode de bon sens qui crée du stationnement, réduit la pollution sonore et aérienne, diminue l'usure des véhicules et fait respecter les 30 km/h.",
+          "related": ["mob-8", "mob-2"]
+        },
+        {
+          "id": "mob-2",
+          "title": "Libérer les trottoirs pour tous",
+          "summary": "Pour que les PMR, les parents avec poussette et les malvoyants puissent circuler en sécurité.",
+          "detail": "Les poubelles et voitures mal garées forcent les personnes à mobilité réduite, les parents avec poussette ou les malvoyants à se mettre en danger pour simplement circuler dans la ville.\n\nNous verbaliserons les stationnements gênants, les dépôts sauvages et les déjections canines non ramassées. Nous installerons davantage de distributeurs de sacs canins et reverrons l'emplacement des poubelles de ville.\n\nNous embellirons et verdirons les rues : fleurissement de tous les quartiers en s'appuyant sur les compétences du service municipal des espaces verts et la créativité des habitants.",
+          "related": ["mob-4", "inc-1"]
+        },
+        {
+          "id": "mob-3",
+          "title": "Gratuité des transports en commun",
+          "summary": "Des transports gratuits pour tous les Wasquehaliens — une mesure sociale, écologique et solidaire.",
+          "mel": true,
+          "detail": "Nous nous engageons vers la gratuité des transports en commun pour tous les Wasquehaliens, en coordination avec la Métropole Européenne de Lille et Ilévia.\n\nCette mesure réduira la dépendance à la voiture individuelle, améliorera la qualité de l'air, et facilitera l'accès de tous — et notamment des ménages modestes — aux équipements, commerces et services de la ville.\n\nUne ville plus mobile, c'est une ville plus solidaire.",
+          "related": ["mob-4", "mob-5"]
+        },
+        {
+          "id": "mob-4",
+          "title": "Meilleure desserte bus et navette transversale",
+          "summary": "Travailler avec Ilévia pour une liaison transversale reliant tous les quartiers excentrés aux équipements publics.",
+          "mel": true,
+          "detail": "Nous travaillerons avec Ilévia pour améliorer la desserte des bus. Nous créerons une liaison transversale reliant les quartiers excentrés — du Petit Wasquehal au Capreau en passant par le Haut Vinage, la rue de Lille, la rue de Marcq-en-Barœul, le Plomeux — aux équipements publics sportifs (dojo, stade, patinoire) et culturels (cinéma, conservatoire).\n\nNous faciliterons aussi les initiatives locales de transport : navettes électriques, vélos collectifs, covoiturage entre habitants.",
+          "related": ["mob-3", "ser-5"]
+        },
+        {
+          "id": "mob-5",
+          "title": "Aménagements cyclables et rampes vers le canal",
+          "summary": "Relier tous les quartiers par des voies cyclables sécurisées. Rampes pour vélos, poussettes et PSH vers le canal.",
+          "detail": "Nous faciliterons et sécuriserons la circulation entre tous les quartiers à pied et à vélo, avec des voies spécifiques pour traverser les grands axes qui séparent les quartiers.\n\nNous réaménagerons les différents accès au canal avec des rampes accessibles aux vélos, poussettes et personnes en situation de handicap.\n\nNous développerons une culture du vélo et de la trottinette pour tous : apprentissage du code de la route dès le primaire et au collège. En partenariat avec l'ADAV (Association pour le Développement des Aménagements pour les Vélos).",
+          "related": ["mob-6", "mob-7"]
+        },
+        {
+          "id": "mob-6",
+          "title": "V'Lille, stations vélo et sécurisation des trajets scolaires",
+          "summary": "Des stations V'Lille dans les quartiers excentrés. Pédibus et vélobus pour accompagner les enfants à l'école.",
+          "mel": true,
+          "detail": "Nous favoriserons l'installation de nouvelles stations V'Lille dans les quartiers excentrés (Capreau, Molinel, Haut Vinage, Boers) pour relier les habitants aux transports (train, métro, tramway) et aux équipements publics.\n\nNous installerons des stations d'entretien de vélo dans chaque quartier — pour réparer son vélo soi-même, gratuitement.\n\nNous rétablirons les pédibus et créerons des vélobus : des encadrants accompagneront les enfants jusqu'à l'école, à pied ou à vélo. Objectif : sécuriser les trajets vers le collège et le lycée et réduire la circulation automobile aux heures de pointe.",
+          "related": ["mob-5", "fam-3"]
+        },
+        {
+          "id": "mob-7",
+          "title": "Animaux : propreté urbaine et bien-être animal",
+          "summary": "Plus de poubelles, plus de distributeurs de sacs canins, amélioration des parcs canins et soutien à la stérilisation des animaux errants.",
+          "detail": "Nous installerons davantage de poubelles et de distributeurs de sacs canins dans toute la ville et renforcerons la prévention et les sanctions pour les déjections non ramassées.\n\nNous améliorerons les parcs canins existants (revêtement, séparation par taille de chien). Nous soutiendrons la stérilisation des animaux errants. Nous étudierons la création d'une plateforme municipale de garde d'animaux entre Wasquehaliens.",
+          "related": ["mob-2", "mob-8"]
+        },
+        {
+          "id": "mob-8",
+          "title": "Plans de circulation citoyens par quartier",
+          "summary": "Tout sera fait avec vous, rien contre vous. Chaque quartier co-conçoit son aménagement avec les habitants.",
+          "detail": "Nous organiserons des consultations citoyennes dans chaque quartier pour redonner aux habitants le pouvoir de choisir comment aménager l'espace public.\n\nTous les sujets seront traités ensemble : chicanes, trottoirs, fleurissement, poubelles, pistes cyclables, stationnement, espaces de verdure. Chaque plan sera co-construit avec l'aide d'experts en urbanisme et d'associations compétentes comme l'ADAV.\n\nTout sera fait avec vous, rien contre vous.",
+          "related": ["dem-1", "mob-1"]
+        }
+      ]
+    },
+    {
+      "id": "vie",
+      "title": "Qualité de vie & Culture",
+      "icon": "🎉",
+      "color": "#81bc38",
+      "description": "Une alimentation saine, une vie associative épanouie, des festivités pour tous dans tous les quartiers.",
+      "propositions": [
+        {
+          "id": "vie-1",
+          "title": "Cantines 100 % bio — régie agricole municipale",
+          "summary": "50 % bio en 2029, 80 % en 2032, en exploitant les 5 ha du Sentier du Laurier (1 600 repas/jour).",
+          "detail": "Nous dirigerons la ville vers le 100 % de nourriture bio dans les cantines scolaires : 50 % en 2029 et 80 % en 2032.\n\nNous exploiterons les 5 hectares de terres agricoles au Sentier du Laurier, pouvant fournir jusqu'à 1 600 repas en fruits et légumes par jour, toute l'année. Dès que possible, nous créerons une régie agricole et une cuisine centrale municipales. Nous recruterons un maraîcher professionnel et mobiliserons l'association Initiatives Jeunesse pour des chantiers d'insertion.\n\nNous contracterons avec les producteurs bio de la Métropole et du Nord-Pas-de-Calais pour des circuits courts.\n\n💡 Le 100 % bio coûte moins cher : la dépollution des eaux coûte 20 à 30 fois plus cher que le passage au bio. Les agences de l'eau subventionnent ces projets.",
+          "related": ["cli-3", "vie-7"]
+        },
+        {
+          "id": "vie-2",
+          "title": "Festivités gratuites toute l'année dans tous les quartiers",
+          "summary": "Allumoirs, fête de la musique, 14 juillet, Wasquehal Plage, sardinades, festival de soupe… pour se réunir et se réjouir.",
+          "detail": "Wasquehal mérite des occasions de se réunir et de vivre des moments de joie collective. Nous organiserons des festivités gratuites toute l'année dans tous les quartiers :\n\nAllumoirs, Saint-Valentin, chasse aux œufs, fête de la musique, 14 juillet, Wasquehal Plage…\n\nEt bien sûr des occasions de manger ensemble : cornets de frites, festival de soupe, sardinades, food trucks.\n\nDes manifestations artistiques populaires : concerts, bals populaires, expositions, projections en plein air. Des artistes locaux de tous les âges mis en avant. Des espaces pour apprendre et pratiquer les arts.",
+          "related": ["vie-3", "dem-1"]
+        },
+        {
+          "id": "vie-3",
+          "title": "Soutien aux associations, équipements et Conservatoire",
+          "summary": "Des financements justes, un accès transparent aux équipements — et réparer ce qui ne fonctionne plus.",
+          "detail": "Chaque association, sportive ou culturelle, sera soutenue à la hauteur de son engagement. Fin du favoritisme et des oublis : une aide juste et transparente pour toutes et tous.\n\nNous sauverons la Manivelle Théâtre, actuellement en danger. Nous remettrons sur pied le Wasquehal Football. Nous valoriserons le Conservatoire de musique et de danse et lui redonnerons les moyens de fonctionner.\n\nNous réglerons les problèmes concrets : canalisations du Dojo Gérard Vignoble, étanchéité de la salle Adams, bar du cinéma Gérard Philipe, système de chauffage du Conservatoire.\n\nOuverture de créneaux de pratique libre dans les équipements sportifs. Programmation annuelle de conférences historiques et scientifiques.",
+          "related": ["vie-2", "jeu-1"]
+        },
+        {
+          "id": "vie-4",
+          "title": "Plaine de jeux libérée et espaces de fraîcheur",
+          "summary": "Libérer la plaine de jeux (plus de grille payante), gardien sur place, piscine étendue en été.",
+          "detail": "La plaine de jeux — engrillagée et rendue payante en été — sera libérée. Nous y installerons un gardien et étendrons ses horaires d'ouverture.\n\nNous étendrons les horaires d'ouverture de la piscine municipale en été, particulièrement pendant les périodes de canicule.\n\nNous aménagerons des espaces de fraîcheur en été dans chaque quartier, ouverts à des heures praticables. Parce qu'un espace public doit être accessible à tous, gratuitement.",
+          "related": ["cli-2", "fam-5"]
+        },
+        {
+          "id": "vie-5",
+          "title": "Commerces de proximité : loyers, zones prioritaires, foire",
+          "summary": "Aides aux loyers, zones commerçantes prioritaires (Capreau, Haut Vinage, Orée du Golf), foire commerciale annuelle.",
+          "detail": "Nous aiderons à maintenir et à attirer des commerces dans les zones sous-équipées grâce à des aides aux loyers et à l'acquisition de cellules commerciales.\n\nNous définirons des Zones Commerçantes Prioritaires : Capreau, Haut Vinage et Orée du Golf.\n\nNous organiserons une foire commerciale annuelle pour dynamiser l'activité locale. Nous soutiendrons l'épicerie solidaire et lui proposerons plus de choix. Nous encouragerons la création de supermarchés coopératifs (type Super Quinquin).\n\nNous intégrerons les entreprises wasquehaliennes dans la vie locale : sponsoring associatif, foire aux stages, journées portes ouvertes dans les lycées professionnels.",
+          "related": ["vie-6", "mob-4"]
+        },
+        {
+          "id": "vie-6",
+          "title": "Restaurants municipaux ouverts le soir",
+          "summary": "Ouvrir les restaurants municipaux le soir avec des repas bio pour que personne ne saute de repas.",
+          "detail": "Nous ouvrirons les restaurants municipaux le soir pour rompre l'isolement et nous assurer qu'aucun·e Wasquehalien·ne ne saute des repas pour des raisons financières.\n\nLes repas bio fournis par la régie agricole municipale y seront servis — un cercle vertueux entre notre agriculture locale et le soin apporté aux Wasquehaliens.\n\nCe service bénéficiera en priorité aux personnes âgées isolées, aux étudiants et aux familles en difficulté. Nous développerons également un service de transport et de covoiturage pour que les seniors puissent y accéder facilement.",
+          "related": ["ser-1", "vie-1"]
+        },
+        {
+          "id": "vie-7",
+          "title": "Alimentation : épicerie solidaire et circuits courts",
+          "summary": "Soutenir l'épicerie solidaire, encourager les coopératives alimentaires (Super Quinquin), développer les circuits bio locaux.",
+          "detail": "Nous soutiendrons l'épicerie solidaire et lui proposerons plus de choix dans les denrées disponibles, en lien avec les producteurs locaux.\n\nNous encouragerons la création de supermarchés coopératifs à Wasquehal, sur le modèle du Super Quinquin à Lille.\n\nNous travaillerons avec les restaurateurs et commerces de la ville pour favoriser l'approvisionnement auprès de producteurs du territoire — dans le cadre de notre label « 3 Fourchettes Territoire Bio ».",
+          "related": ["vie-1", "vie-5"]
+        }
+      ]
+    },
+    {
+      "id": "jeunesse",
+      "title": "Jeunesse",
+      "icon": "🌟",
+      "color": "#ab31e5",
+      "description": "Prendre soin de la santé mentale, offrir des espaces d'épanouissement et garantir l'égalité des chances.",
+      "propositions": [
+        {
+          "id": "jeu-1",
+          "title": "Pôle de santé mentale",
+          "summary": "Un service d'information et d'accompagnement ciblant les jeunes — le suicide est la 1re cause de mortalité chez les jeunes.",
+          "detail": "Le suicide est la première cause de mortalité au sein de la jeunesse. Il faut détecter et soutenir celles et ceux qui traversent des crises.\n\nNous créerons un pôle de santé mentale : un service d'information et d'accompagnement pensé pour les jeunes, mais ouvert à tous. Il offrira des consultations, de l'orientation et du soutien psychologique de proximité.\n\nCe pôle sera développé en partenariat avec l'Autorité Régionale de Santé (ARS) et la Communauté Professionnelle Territoriale de Santé (CPTS) de la Marque.",
+          "related": ["jeu-2", "ser-1"]
+        },
+        {
+          "id": "jeu-2",
+          "title": "Maison de la jeunesse (15 ans et plus)",
+          "summary": "Un espace ouvert le soir et les week-ends : safe place, loisirs, création, écoute — particulièrement en été.",
+          "detail": "Wasquehal offre peu de loisirs pour les adolescents, particulièrement en été. Nous créerons une maison de la jeunesse ouverte aux jeunes de 15 ans et plus :\n\n• Une safe place et un lieu d'écoute\n• Un lieu de loisirs : mangas, tournois de jeux vidéo, fêtes sans alcool\n• Un lieu de création : imprimantes 3D, travail du bois et de la mécanique\n• Des horaires d'ouverture tardifs, particulièrement en été\n• Soirées ciné-débat, éducation populaire\n\nUn espace sûr et ouvert aux expérimentations qui forment la jeunesse.",
+          "related": ["jeu-1", "vie-3"]
+        },
+        {
+          "id": "jeu-3",
+          "title": "Planning Familial du Nord",
+          "summary": "Financer un poste à temps plein pour 6 ans, avec un espace d'intervention à Wasquehal — pour le droit des femmes.",
+          "detail": "Nous nous engageons pour la lutte pour le droit des femmes à disposer d'elles-mêmes.\n\nNous soutiendrons le Planning Familial du Nord en finançant un poste à temps plein pour les 6 ans de la mandature. En échange, nous organiserons un espace d'intervention à Wasquehal pour l'équivalent d'un tiers-temps : faire venir des professionnels dans les entreprises, les centres sociaux, notre pôle de santé mentale et notre maison de la jeunesse.\n\nObjectif : que toutes les Wasquehaliennes puissent être écoutées, informées et obtenir des services médicaux relatifs aux questions sexuelles et amoureuses.",
+          "related": ["jeu-1", "ser-1"]
+        },
+        {
+          "id": "jeu-4",
+          "title": "Égalité des chances : stages, permis, fournitures",
+          "summary": "Bureau des stages, aide au permis de conduire, gratuité des fournitures scolaires et aide aux devoirs généralisée.",
+          "detail": "L'égalité des chances commence par le droit à l'expérience. Nous créerons un bureau des stages et un annuaire des entreprises wasquehaliennes pour faciliter les mises en relation jeunesse-entreprises, notamment lors de foires aux stages et journées découvertes.\n\nNous aiderons les jeunes à passer le permis de conduire.\n\nNous garantirons la gratuité des fournitures scolaires dans toutes les écoles de Wasquehal.\n\nNous généraliserons l'aide aux devoirs avec des personnels formés à la pédagogie.",
+          "related": ["jeu-2", "fam-6"]
+        }
+      ]
+    },
+    {
+      "id": "familles",
+      "title": "Parents & Enfants",
+      "icon": "👨‍👩‍👧",
+      "color": "#e92e6c",
+      "description": "Soulager la charge mentale des parents, épanouir les enfants, reconnaître le droit au répit.",
+      "propositions": [
+        {
+          "id": "fam-1",
+          "title": "Tarifs périscolaires −20 % et portail famille simplifié",
+          "summary": "Baisse de 20 % en moyenne dès septembre 2026. Fin du prépaiement, justification des revenus une fois par an.",
+          "detail": "Nous recalculerons la totalité de notre grille tarifaire pour les services périscolaires, avec une baisse moyenne de 20 % pour la rentrée de septembre 2026.\n\nLe contrôle des ressources familiales s'effectuera désormais une seule fois par an. Fini le prépaiement : les familles paieront après le service rendu. Nous réduirons les démarches nécessaires pour inscrire les enfants — fini les 12 formulaires.\n\nNous garantirons une première réponse en 48h pour toute demande, avec un suivi type « colis » indiquant le service instructeur, le contact privilégié et l'état d'avancement.",
+          "related": ["fam-2", "ser-2"]
+        },
+        {
+          "id": "fam-2",
+          "title": "Carte monofamille et droit au répit",
+          "summary": "Tarifs préférentiels, ALSH les soirs et week-ends, crèche en horaires décalés pour les familles monoparentales.",
+          "detail": "Nous créerons une carte monofamille ouvrant plusieurs droits aux familles monoparentales :\n\n• Des tarifs préférentiels pour les activités sportives et culturelles à Wasquehal\n• Un service d'ALSH les soirs et les week-ends (soirées pyjama pour les enfants)\n• Une crèche en horaire élargi pour les parents travaillant en horaires décalés\n\nNous reconnaissons un droit au répit dans la vie des parents : permettre l'accès au repos sans priver les enfants d'occasions de jeux et d'apprentissage.",
+          "related": ["fam-1", "fam-3"]
+        },
+        {
+          "id": "fam-3",
+          "title": "Transport cyclable vers les activités",
+          "summary": "Un service pour emmener les enfants au conservatoire, au cinéma, au dojo — aucun enfant privé d'activité pour des raisons logistiques.",
+          "detail": "Aucun enfant à Wasquehal ne se privera d'activités sportives ou culturelles pour des raisons logistiques.\n\nNous créerons un service de transport cyclable vers les équipements de la ville : conservatoire, cinéma, dojo, stade… Des accompagnateurs formeront les jeunes au déplacement actif et sécurisé.\n\nCe service complète notre réseau de pédibus et contribue à développer l'autonomie des enfants.",
+          "related": ["mob-6", "fam-2"]
+        },
+        {
+          "id": "fam-4",
+          "title": "Pédibus — accompagnement pédestre vers l'école",
+          "summary": "Des encadrants accompagnent les enfants de leur domicile jusqu'à l'école chaque matin, à pied.",
+          "detail": "Des encadrants accompagneront le matin les enfants de leur domicile jusqu'à l'école, en groupes et à pied.\n\nObjectif : limiter la circulation automobile aux abords des écoles aux heures de pointe, réduire la charge mentale et la fatigue physique des parents, et offrir aux enfants un moment de socialisation matinale.\n\nCe service sera particulièrement utile pour les familles monoparentales et les parents travaillant tôt.",
+          "related": ["mob-6", "fam-3"]
+        },
+        {
+          "id": "fam-5",
+          "title": "Café parental",
+          "summary": "Un tiers-lieu de rencontre avec espace dédié aux petits, pour rompre l'isolement et créer de la solidarité entre familles.",
+          "detail": "Nous ouvrirons un café parental : un tiers-lieu d'échange et de rencontre avec un espace dédié aux plus petits.\n\nPour lutter contre l'isolement, offrir des moments de convivialité et de répit, et faciliter l'organisation solidaire entre familles. Un lieu où partager les galères du quotidien, trouver de l'entraide et souffler un peu.\n\nCe café parental sera ouvert à toutes les familles, avec une attention particulière pour les familles monoparentales et les nouveaux arrivants.",
+          "related": ["fam-2", "ser-1"]
+        },
+        {
+          "id": "fam-6",
+          "title": "Aires de jeux améliorées dans tous les quartiers",
+          "summary": "Plus de diversité, entretien régulier, espaces confortables pour les parents — et un vendeur à vélo dans les parcs.",
+          "detail": "Nous améliorerons l'offre d'aires de jeux sur tout le territoire de Wasquehal :\n\n• Une plus grande diversité des activités proposées\n• Un entretien plus régulier du matériel et des espaces verts\n• Des espaces plus confortables pour les parents et accompagnateurs\n• Un vendeur à vélo de café et boissons fraîches dans tous les parcs\n\nParce que jouer dehors, c'est essentiel — et que les parents méritent aussi d'être à l'aise.",
+          "related": ["vie-4", "cli-2"]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Services publics & Sécurité",
+      "icon": "🏛️",
+      "color": "#203a6a",
+      "description": "Défendre les services publics, garantir la proximité et pratiquer la politique du résultat.",
+      "propositions": [
+        {
+          "id": "ser-1",
+          "title": "CCAS renforcé et aide aux personnes âgées",
+          "summary": "Plus de travailleurs sociaux, service de transport pour les seniors, foyers de quartier pour rompre l'isolement.",
+          "detail": "Nous soutiendrons le CCAS, dont le rôle est capital dans la vie quotidienne de nombreux Wasquehaliens. Nous augmenterons le nombre de travailleurs sociaux et améliorerons la qualité de l'accompagnement par une démarche proactive d'information sur les droits.\n\nNous créerons des foyers dans les quartiers : des lieux de convivialité et d'entraide pour rompre l'isolement des personnes âgées et de tous ceux qui en ont besoin.\n\nNous développerons un service de transport et de covoiturage dédié aux seniors pour accéder aux restaurants municipaux, aux soins et aux activités.",
+          "related": ["log-4", "vie-6"]
+        },
+        {
+          "id": "ser-2",
+          "title": "Guichet unique et réponse garantie en 48h",
+          "summary": "Un guichet municipal qui centralise toutes les démarches, avec un suivi de demande type « colis ».",
+          "detail": "Nous constituerons un guichet municipal unique pour centraliser toutes les démarches et orienter les usagers selon leurs besoins.\n\nNous garantirons une première réponse en 48h pour toute demande. Le suivi fonctionnera comme un « suivi colis » : nom du service instructeur, contact privilégié, coordonnées, raisons de l'attente.\n\nNous formerons tous les personnels à la lutte contre les discriminations et à la notion de service public. Maison de services au Capreau pour que les habitants de ce quartier accèdent aux services sans traverser toute la ville.",
+          "related": ["fam-1", "dem-2"]
+        },
+        {
+          "id": "ser-3",
+          "title": "Police de proximité : la politique du résultat",
+          "summary": "Des médiateurs de rue, un psychologue, des ASVP, un garde champêtre — 1 agent pour 1 000 habitants.",
+          "detail": "La politique du chiffre a montré ses limites. Nous pratiquerons la politique du résultat : des gens sur le terrain, qui rassurent, apaisent et interviennent rapidement.\n\nNous réorganiserons la police municipale et augmenterons les effectifs (objectif : 1 agent pour 1 000 habitants). Le corps sera diversifié :\n\n• Médiateurs de rue pour les relations avec la jeunesse\n• 1 psychologue\n• 2 ASVP pour la régulation de la circulation et du parking\n• 1 garde champêtre pour la propreté des espaces naturels\n\nNous obtiendrons un équipage de police nationale supplémentaire pour Wasquehal. Plus de transparence sur les caméras de surveillance.",
+          "related": ["dem-1", "ser-4"]
+        },
+        {
+          "id": "ser-4",
+          "title": "Remunicipalisation des services publics",
+          "summary": "Fin du démantèlement au profit du privé — eau, restauration, salage — et création d'une régie de quartier.",
+          "mel": true,
+          "detail": "Nous mettrons fin au démantèlement des services municipaux au profit d'entreprises privées. Nous remunicipaliserons un maximum de délégations de services publics : eau, restauration, salage des routes.\n\nNous mettrons en place une régie de quartier pour les petits travaux de dépannage.\n\nNous fléchemons la commande publique vers les entreprises wasquehaliennes en priorité, et dans la Métropole à défaut. Nous sourceons au maximum des matériaux et productions locales.",
+          "related": ["ser-1", "vie-1"]
+        },
+        {
+          "id": "ser-5",
+          "title": "Wasquehal dans la Métropole Européenne de Lille",
+          "summary": "Défendre les intérêts de Wasquehal à la MEL et développer les coopérations avec les communes voisines.",
+          "mel": true,
+          "detail": "Wasquehal doit retrouver sa place centrale dans la Métropole Européenne de Lille. Nous défendrons ses intérêts avec détermination : transports interurbains, rénovation des axes routiers, gestion des déchets.\n\nNous sortirons Wasquehal de son isolement et développerons des coopérations avec Croix, Roubaix, Marcq-en-Barœul, Hem, Mouvaux et Villeneuve-d'Ascq : accès croisé aux équipements, marchés publics, ouverture du conservatoire, alignement des tarifs de cantine.\n\nVoter le 15 mars pour Wasquehal Vivante, c'est aussi choisir vos représentants à la MEL.",
+          "related": ["mob-4", "ser-4"]
+        }
+      ]
+    },
+    {
+      "id": "democratie",
+      "title": "Démocratie locale",
+      "icon": "🗳️",
+      "color": "#81bc38",
+      "description": "Redonner aux Wasquehaliens le pouvoir de décider. Transparence totale, contre-pouvoir citoyen.",
+      "propositions": [
+        {
+          "id": "dem-1",
+          "title": "Conseils de quartier avec vrai pouvoir et budget",
+          "summary": "Budget annuel, pouvoir décisionnel et Maires de Quartier — plus de rôle purement consultatif.",
+          "detail": "Nous rendrons aux Conseils de Quartier leur statut d'antennes politiques réelles. Ils ne seront plus cantonnés à un rôle consultatif : ils disposeront d'un budget annuel pour mener des projets d'aménagement et d'organisation.\n\nDes membres du Conseil Municipal seront nommés Adjoints avec pour fonction d'assurer le rôle de Maire de Quartier, facilitant la communication des problèmes urgents entre les habitants et la mairie.\n\nLes Conseils de Quartier traiteront les sujets du quotidien et remonteront aux élus informations et préoccupations.",
+          "related": ["mob-8", "dem-2"]
+        },
+        {
+          "id": "dem-2",
+          "title": "Transparence totale et conseils filmés en ligne",
+          "summary": "Conseils municipaux en ligne avec sous-titrage, budget accessible, calendriers de décision publics.",
+          "detail": "La transparence sera systématique :\n\n• Publicité des calendriers de décision, communications et décisions du Conseil Municipal\n• Budget municipal rendu facilement accessible et compréhensible pour tous\n• Capture vidéo systématique des conseils municipaux, publication en ligne avec sous-titrage\n• Temps de parole citoyens à l'ordre du jour de chaque Conseil Municipal\n\nStéphanie Ducret a construit une pratique du pouvoir clivante et clientéliste. Nous ouvrons les portes de l'Hôtel de Ville.",
+          "related": ["dem-1", "dem-3"]
+        },
+        {
+          "id": "dem-3",
+          "title": "Droit d'initiative citoyenne et référendum révocatoire",
+          "summary": "Par pétition, les Wasquehaliens pourront inscrire des sujets à l'ordre du jour du Conseil Municipal.",
+          "detail": "Nous reconnaîtrons un droit d'initiative et d'interpellation citoyenne : les Wasquehaliens pourront, sur la base d'une pétition, inscrire des questions ou des propositions à l'ordre du jour du Conseil Municipal.\n\nNous rendrons obligatoires les consultations citoyennes pour toute modification majeure des services publics municipaux.\n\nNous mettrons en place une procédure de référendum révocatoire du Maire, des Adjoints et des Maires de Quartier.",
+          "related": ["dem-2", "dem-4"]
+        },
+        {
+          "id": "dem-4",
+          "title": "Assemblée Citoyenne Municipale",
+          "summary": "Une assemblée associant habitants et forces vives, dont les avis publics seront intégrés aux débats.",
+          "detail": "À terme, nous mettrons en place une Assemblée Citoyenne Municipale, associant habitants et forces vives.\n\nElle pourra s'autosaisir de sujets, inclure un avis consultatif à l'ordre du jour du Conseil Municipal, et devra être consultée sur les projets municipaux futurs.\n\nSes avis seront publics et feront l'objet d'une réponse motivée. C'est la forme la plus avancée de démocratie participative locale que nous souhaitons construire ensemble.",
+          "related": ["dem-3", "dem-1"]
+        },
+        {
+          "id": "dem-5",
+          "title": "Éducation populaire et débats accessibles",
+          "summary": "Comprendre ses institutions locales, des débats en langage clair avec supports sous-titrés.",
+          "detail": "Nous mettrons en place une éducation populaire sur les mécanismes institutionnels locaux : comment fonctionne le Conseil Municipal ? Le budget ? La MEL ? Quels sont vos droits en tant qu'usager ?\n\nNous organiserons des débats dans des lieux accessibles, en utilisant un langage clair, des supports audio-visuels sous-titrés et un travail de traduction des informations essentielles.\n\nNous travaillerons avec des experts, chercheurs, institutions et associations nationales déjà rémunérés pour travailler au service des collectivités.",
+          "related": ["dem-2", "dem-1"]
+        }
+      ]
+    },
+    {
+      "id": "climat",
+      "title": "Environnement & Climat",
+      "icon": "🌿",
+      "color": "#81bc38",
+      "description": "Agir sur les causes et les effets du changement climatique, sans opposer l'utile et l'agréable.",
+      "propositions": [
+        {
+          "id": "cli-1",
+          "title": "Verdure en ville : îlots de fraîcheur dans chaque quartier",
+          "summary": "Permis de végétaliser, jardins partagés, refleurissement de tous les quartiers avec les conseils de quartier.",
+          "detail": "Plus de verdure en ville constitue à la fois des îlots de fraîcheur et un embellissement des quartiers. Notre approche joint l'utile à l'agréable.\n\nNous mettrons en place un permis de végétaliser les habitations dans le respect des règles d'urbanisme. Nous travaillerons avec les conseils de quartier à l'installation de petits jardins partagés.\n\nNous refleurirons tous les quartiers en nous appuyant sur les compétences du service municipal des espaces verts et la créativité des habitants : fleurs et fraîcheur partout.",
+          "related": ["cli-2", "mob-8"]
+        },
+        {
+          "id": "cli-2",
+          "title": "Dés-imperméabilisation des parkings et cours d'école",
+          "summary": "Retirer le béton des sols : moins de chaleur en été, moins d'inondations lors de fortes pluies.",
+          "detail": "Retirer le béton des parkings et des cours d'école : moins de chaleur en été, moins d'accumulation d'eau en cas de fortes pluies.\n\nCette démarche réduira les risques d'inondation, améliorera la biodiversité urbaine et créera des espaces plus agréables pour tous.\n\nNous intégrerons systématiquement cette approche dans tous les projets de rénovation des espaces publics.",
+          "related": ["cli-1", "fam-6"]
+        },
+        {
+          "id": "cli-3",
+          "title": "Gestion des déchets repensée",
+          "summary": "Refonte des Points d'Apport Volontaire, ressourcerie municipale, lutte contre les produits à usage unique.",
+          "mel": true,
+          "detail": "Il faut repenser en profondeur les Points d'Apport Volontaire : faciliter leur utilisation, rendre leur présence plus discrète et donc plus esthétique, éviter la prolifération des odeurs en été.\n\nNous mettrons à disposition une ressourcerie municipale pour l'entretien et le réemploi des objets, en coopérant avec les associations qui travaillent déjà sur ce sujet.\n\nNous inciterons les commerces à limiter au maximum la vente de produits à usage unique et faciliterons la mise en place d'alternatives. Les meilleurs déchets sont ceux qu'on ne produit pas.",
+          "related": ["cli-4", "vie-1"]
+        },
+        {
+          "id": "cli-4",
+          "title": "Éclairage public intelligent et économie d'énergie",
+          "summary": "Un éclairage mieux réparti, disponible sur demande — ramener la nuit dans nos villes.",
+          "detail": "Nous adapterons les éclairages publics pour ramener la nuit dans nos villes sans priver les passants d'un éclairage quand ils en ont besoin.\n\nNous étudierons les modalités pour rendre possible un éclairage urbain mieux réparti, disponible sur demande et non en continu — pour une économie d'énergie significative.\n\nNous affinerons le diagnostic énergétique des bâtiments publics et inciterons les bailleurs à améliorer la performance énergétique de leurs logements.",
+          "related": ["cli-5", "cli-3"]
+        },
+        {
+          "id": "cli-5",
+          "title": "Énergies renouvelables et autonomie énergétique",
+          "summary": "Amender le PLU pour faciliter les panneaux solaires. Plus grande autonomie des équipements municipaux.",
+          "detail": "Nous travaillerons à une plus grande autonomie énergétique des équipements municipaux en employant toutes les méthodes à disposition.\n\nNous amenderons le PLU pour le rendre plus permissif et faciliter l'installation de sources d'énergies renouvelables (panneaux solaires, etc.) dans le parc immobilier privé comme public.\n\nÀ moyen terme, l'isolation thermique des logements anciens sera une priorité du mandat.",
+          "related": ["cli-4", "log-1"]
+        },
+        {
+          "id": "cli-6",
+          "title": "Solidarité énergétique face à la précarité",
+          "summary": "Renforcer les aides aux ménages modestes face aux coûts énergétiques, avec la MEL.",
+          "mel": true,
+          "detail": "Les ménages les plus modestes souffrent en premier de la précarité énergétique, en hiver comme en été. Nous ne souffrons pas toutes et tous avec la même intensité des coûts énergétiques hivernaux et des températures caniculaires estivales.\n\nNous agirons avec la MEL pour renforcer les aides financières aux ménages en difficulté.\n\nNous organiserons avec la population des réunions et des diagnostics par quartier pour identifier les priorités d'action dès notre élection.",
+          "related": ["cli-5", "log-1"]
+        }
+      ]
+    },
+    {
+      "id": "inclusion",
+      "title": "Inclusion & Handicap",
+      "icon": "♿",
+      "color": "#ab31e5",
+      "description": "Pour une commune réellement inclusive et solidaire. Objectif : zéro lieu inaccessible.",
+      "propositions": [
+        {
+          "id": "inc-1",
+          "title": "Mobilité et accessibilité : zéro lieu inaccessible",
+          "summary": "Plan municipal de mobilité pour supprimer tous les obstacles aux déplacements des personnes à mobilité réduite.",
+          "detail": "Nous garantirons une accessibilité optimale aux équipements, aux transports, à la voirie et aux espaces publics relevant de la municipalité. Objectif : zéro lieu inaccessible.\n\nNous mettrons en œuvre un plan municipal de mobilité pour supprimer tous les obstacles liés aux déplacements des personnes à mobilité réduite (transports publics, transports à la demande, voirie), avec un financement pluriannuel.\n\nNous garantirons un accès effectif et équitable au stationnement pour les personnes handicapées : le droit au stationnement gratuit est attaché à la personne (carte CMI), non à un véhicule unique.",
+          "related": ["mob-2", "mob-5"]
+        },
+        {
+          "id": "inc-2",
+          "title": "Logement accessible pour tous",
+          "summary": "100 % de logements accessibles, travail avec les bailleurs, aides financières à l'accessibilité dans les rénovations.",
+          "detail": "Nous maintiendrons l'obligation de 100 % de logements accessibles dans la ville.\n\nNous travaillerons avec les bailleurs sociaux pour améliorer leur taux de logements accessibles et anticiper les aménagements accessibles (ou facilement modulables) dès la conception de nouveaux programmes immobiliers.\n\nNous intégrerons systématiquement les aides financières à l'accessibilité dans les programmes d'aide à la rénovation.",
+          "related": ["log-3", "inc-1"]
+        },
+        {
+          "id": "inc-3",
+          "title": "École inclusive : cellule de coordination handicap-éducation",
+          "summary": "Accompagner les familles, faire le lien avec les écoles, la MDPH et l'Éducation nationale.",
+          "detail": "Le manque d'AESH freine lourdement la scolarisation des enfants en situation de handicap. Nous créerons une cellule municipale de coordination handicap-éducation pour accompagner les familles et faire le lien avec les écoles, la MDPH et l'Éducation nationale.\n\nNous favoriserons l'accueil des enfants en situation de handicap au plus près de leur domicile (crèche, halte-garderie, écoles) : accessibilité des lieux, formation des personnels, activités adaptées.\n\nNous favoriserons l'achat de matériel adapté dans les écoles. Des ateliers associatifs de réparation prolongeront la durée de vie du matériel.",
+          "related": ["fam-1", "ser-2"]
+        },
+        {
+          "id": "inc-4",
+          "title": "Services municipaux inclusifs et emploi exemplaire",
+          "summary": "Accessibilité des Conseils municipaux (LSF, FALC), plan de recrutement de personnes handicapées, lien avec l'AGEFIPH.",
+          "detail": "Nous garantirons l'accessibilité des Conseils Municipaux et de toutes les instances de participation citoyenne : traduction en LSF, documents en FALC, accessibilité numérique.\n\nLa Ville sera un employeur exemplaire : plan pluriannuel de recrutement de personnes en situation de handicap, avec un objectif de progression vers les seuils légaux, en lien avec l'AGEFIPH.\n\nNous formerons les animateurs et personnels périscolaires à l'accompagnement des enfants en situation de handicap, pour garantir des activités éducatives, sportives et culturelles sécurisées et adaptées.",
+          "related": ["ser-2", "dem-2"]
+        },
+        {
+          "id": "inc-5",
+          "title": "Sport et culture pour tous — handisport et clubs inclusifs",
+          "summary": "Soutenir les clubs où personnes handicapées et valides pratiquent ensemble. Former les professionnels.",
+          "detail": "Nous soutiendrons l'ensemble des associations et clubs développant le handisport et les clubs inclusifs, permettant aux personnes en situation de handicap et valides de pratiquer ensemble.\n\nNous formerons les professionnels responsables des activités culturelles, sportives et de vacances à l'accueil des personnes en situation de handicap, comme acteurs, spectateurs, contributeurs, créateurs.\n\nNous mobiliserons le CCAS pour renforcer ses actions de solidarité en direction des personnes en situation de handicap : information, orientation, aides financières.",
+          "related": ["vie-3", "inc-4"]
+        }
+      ]
+    }
+  ]
+}

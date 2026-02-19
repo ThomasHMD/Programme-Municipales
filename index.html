@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programme Municipal</title>
+
+  <!-- Google Fonts : Inter (moderne, lisible, web-safe) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       BARRE DE NAVIGATION FIXE
+       ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Navigation principale">
+    <div class="nav-inner">
+
+      <!-- Logo officiel -->
+      <button class="nav-brand" id="nav-brand-btn" aria-label="Retour à l'accueil">
+        <img src="logo%20wasquehal%20vivante.png" alt="Wasquehal Vivante" class="nav-logo">
+      </button>
+
+      <!-- Moteur de recherche -->
+      <div class="nav-search-wrapper" role="search">
+        <div class="search-input-container">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Rechercher dans le programme…"
+            autocomplete="off"
+            aria-label="Rechercher dans le programme électoral"
+            aria-autocomplete="list"
+            aria-controls="search-dropdown"
+          >
+          <button class="search-clear" id="search-clear" aria-label="Effacer la recherche">✕</button>
+        </div>
+        <!-- Résultats de recherche en dropdown -->
+        <div class="search-results-dropdown" id="search-dropdown" role="listbox" aria-label="Résultats de recherche"></div>
+      </div>
+
+      <!-- Bouton accueil (visible sur desktop) -->
+      <button class="nav-home-btn" id="nav-home-btn" aria-label="Accueil">
+        Accueil
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       FIL D'ARIANE
+       ============================================================ -->
+  <div id="breadcrumb-bar" aria-label="Fil d'Ariane">
+    <div class="breadcrumb-inner" id="breadcrumb" aria-live="polite"></div>
+  </div>
+
+  <!-- ============================================================
+       CONTENU PRINCIPAL — chargé dynamiquement par app.js
+       ============================================================ -->
+  <main id="app" role="main" aria-live="polite">
+    <!-- Le contenu est injecté ici par JavaScript -->
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer id="footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-list" id="footer-list"></p>
+      <p class="footer-meta">
+        <span id="footer-city"></span>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <span id="footer-election"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
