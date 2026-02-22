@@ -251,6 +251,28 @@ function renderHomeView() {
     <div class="themes-grid" role="list">
       ${themes.map(t => buildThemeCard(t)).join('')}
     </div>
+
+    <!-- Bouton "Mesure Aléatoire" -->
+    <div class="random-prop-section">
+      <button id="btn-random-prop" class="btn-random" aria-label="Découvrir une mesure aléatoire">
+        <span class="btn-random-icon" aria-hidden="true">🎲</span>
+        Découvrir une mesure au hasard
+      </button>
+    </div>
+
+    <!-- Section "Partagez le programme" (QR Code) -->
+    <div class="share-section">
+      <h2 class="share-title">Partagez le programme !</h2>
+      <div class="qr-container">
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://wasquehal-vivante.fr/"
+          alt="QR Code vers wasquehal-vivante.fr"
+          class="qr-code-img"
+          loading="lazy"
+        >
+      </div>
+      <p class="share-hint">Scannez pour partager http://wasquehal-vivante.fr/</p>
+    </div>
   `;
 
   animateIn();
@@ -265,6 +287,28 @@ function renderHomeView() {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
     });
   });
+
+  // Attacher l'événement au bouton "Aléatoire"
+  document.getElementById('btn-random-prop')?.addEventListener('click', openRandomProp);
+}
+
+/** Choisit une proposition au hasard et y navigue. */
+function openRandomProp() {
+  const allProps = [];
+  const themes = state.program.themes ?? [];
+
+  themes.forEach(theme => {
+    (theme.propositions ?? []).forEach(prop => {
+      allProps.push({ themeId: theme.id, propId: prop.id });
+    });
+  });
+
+  if (allProps.length === 0) return;
+
+  const randomIdx = Math.floor(Math.random() * allProps.length);
+  const target = allProps[randomIdx];
+
+  navigateTo(`theme/${target.themeId}`, target.propId);
 }
 
 /** HTML d'une carte de thème (layout horizontal compact). */

@@ -826,3 +826,98 @@ a      { text-decoration: none; color: inherit; }
   :root { --pad-x: 24px; }
   .home-hero  { padding: 36px 40px 36px 32px; gap: 32px; }
 }
+
+/* ============================================================
+   NOUVELLES FONCTIONNALITÉS (Random, Share, Join)
+   ============================================================ */
+
+/* 1. Bouton "Mesure Aléatoire" */
+.random-prop-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-random {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #e92e6c 0%, #c0155a 100%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: var(--r-full);
+  border: none;
+  box-shadow: 0 4px 14px rgba(233, 46, 108, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-random:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(233, 46, 108, 0.4);
+}
+
+.btn-random-icon { font-size: 20px; }
+
+/* 2. Section "Partagez le programme" (QR Code) */
+.share-section {
+  margin-top: 60px;
+  padding: 40px;
+  background: #fff;
+  border: 1.5px solid var(--border-subtle);
+  border-radius: var(--r-xl);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.share-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.qr-container {
+  padding: 16px;
+  background: #fff;
+  border-radius: var(--r-md);
+  box-shadow: 0 4px 12px rgba(32, 58, 106, 0.08);
+  border: 1px solid var(--border-subtle);
+}
+
+.qr-code-img {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.share-hint {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* 3. Bouton "Rejoindre l'équipe" (Footer) */
+.footer-cta {
+  margin-top: 24px;
+}
+
+.btn-join {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--c-blue);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: var(--r-full);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn-join:hover {
+  background: #2b4c8a; /* Un peu plus clair que --c-blue */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(32, 58, 106, 0.2);
+}
