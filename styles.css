@@ -831,33 +831,70 @@ a      { text-decoration: none; color: inherit; }
    NOUVELLES FONCTIONNALITÉS (Random, Share, Join)
    ============================================================ */
 
-/* 1. Bouton "Mesure Aléatoire" */
+/* 1. Bouton "Mesure Aléatoire" - Style harmonisé avec les cartes thèmes */
 .random-prop-section {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin: 40px 0;
 }
 
 .btn-random {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 12px;
-  background: linear-gradient(135deg, #e92e6c 0%, #c0155a 100%);
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 16px 32px;
-  border-radius: var(--r-full);
-  border: none;
-  box-shadow: 0 4px 14px rgba(233, 46, 108, 0.3);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  gap: 20px;
+  padding: 20px 28px;
+  background: #1e293b; /* Gris anthracite profond */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 5px solid #4a5a75; /* Gris un peu plus clair au repos */
+  border-radius: var(--r-lg);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.22s ease;
+  max-width: 400px;
+  width: 100%;
+  color: #fff; /* Texte blanc */
+  font-family: inherit;
+  box-shadow: 0 4px 14px rgba(30, 41, 59, 0.25);
 }
 
 .btn-random:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(233, 46, 108, 0.4);
+  background: #2a384e; /* Éclaircir légèrement au survol */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.4);
+  border-left-color: #64748b; /* Gris clair au survol */
 }
 
-.btn-random-icon { font-size: 20px; }
+.btn-random-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+  transition: transform 0.22s ease, background 0.22s ease;
+  color: #fff;
+}
+
+.btn-random:hover .btn-random-icon {
+  transform: scale(1.1) rotate(15deg);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-random-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff; /* Titre blanc */
+}
+
+.btn-random-subtext {
+  font-size: 13px;
+  color: #94a3b8; /* Sous-titre gris clair (slate-400) */
+  font-weight: 400;
+  margin-top: 2px;
+}
 
 /* 2. Section "Partagez le programme" (QR Code) */
 .share-section {

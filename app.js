@@ -255,8 +255,11 @@ function renderHomeView() {
     <!-- Bouton "Mesure Aléatoire" -->
     <div class="random-prop-section">
       <button id="btn-random-prop" class="btn-random" aria-label="Découvrir une mesure aléatoire">
-        <span class="btn-random-icon" aria-hidden="true">🎲</span>
-        Découvrir une mesure au hasard
+        <div class="btn-random-icon" aria-hidden="true">🎲</div>
+        <div class="btn-random-content">
+          <div class="btn-random-text">Découvrir une mesure au hasard</div>
+          <div class="btn-random-subtext">Laissez le destin choisir pour vous !</div>
+        </div>
       </button>
     </div>
 
