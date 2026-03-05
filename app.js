@@ -238,11 +238,8 @@ function renderHomeView() {
       <div class="hero-content">
         <div class="hero-list">${esc(meta.list ?? 'Programme Municipal')}</div>
         <div class="hero-candidate">${meta.candidate ? 'avec ' + esc(meta.candidate) : ''}</div>
-        <div class="hero-tags">
-          <span class="hero-tag hero-tag-accent">📍 ${esc(meta.city ?? '')}</span>
-          <span class="hero-tag">${esc(meta.election ?? '')}</span>
-          ${meta.tagline ? `<span class="hero-tag">${esc(meta.tagline)}</span>` : ''}
-        </div>
+        ${meta.election ? `<div class="hero-election">${esc(meta.election)}</div>` : ''}
+        ${meta.tagline ? `<div class="hero-tagline">${esc(meta.tagline)}</div>` : ''}
       </div>
     </section>
 
@@ -250,32 +247,56 @@ function renderHomeView() {
     <p class="themes-section-title">Nos ${themes.length} thèmes de programme</p>
     <div class="themes-grid" role="list">
       ${themes.map(t => buildThemeCard(t)).join('')}
-    </div>
-
-    <!-- Bouton "Mesure Aléatoire" -->
-    <div class="random-prop-section">
-      <button id="btn-random-prop" class="btn-random" aria-label="Découvrir une mesure aléatoire">
-        <div class="btn-random-icon" aria-hidden="true">🎲</div>
-        <div class="btn-random-content">
-          <div class="btn-random-text">Découvrir une mesure au hasard</div>
-          <div class="btn-random-subtext">Laissez le destin choisir pour vous !</div>
+      <!-- Bouton "Mesure Aléatoire" — dans la grille -->
+      <button
+        class="theme-card random-card"
+        id="btn-random-prop"
+        role="listitem"
+        tabindex="0"
+        aria-label="Découvrir une mesure aléatoire"
+      >
+        <div class="card-icon-wrap random-icon-wrap" aria-hidden="true">🎲</div>
+        <div class="card-body">
+          <div class="card-title">Découvrir une mesure au hasard</div>
         </div>
       </button>
     </div>
 
-    <!-- Section "Partagez le programme" (QR Code) -->
-    <div class="share-section">
-      <h2 class="share-title">Partagez le programme !</h2>
-      <div class="qr-container">
+    <!-- Bloc programme : télécharger + partager -->
+    <div class="programme-actions">
+      <a href="Programme-Wasquehal-Vivante.pdf" download class="programme-action-card" aria-label="Télécharger le programme complet en PDF">
+        <div class="programme-action-icon" aria-hidden="true">📄</div>
+        <div class="programme-action-text">Télécharger le programme complet</div>
+        <div class="programme-action-sub">Format PDF</div>
+      </a>
+      <div class="programme-action-card programme-action-qr">
+        <div class="programme-action-icon" aria-hidden="true">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=http://wasquehal-vivante.fr/"
+            alt="QR Code vers wasquehal-vivante.fr"
+            class="qr-code-img"
+            loading="lazy"
+          >
+        </div>
+        <div class="programme-action-text">Partagez le programme</div>
+        <div class="programme-action-sub">Scannez ou partagez wasquehal-vivante.fr</div>
+      </div>
+    </div>
+
+    <!-- Section "Votre équipe" -->
+    <section class="team-section">
+      <h2 class="team-title">Votre équipe</h2>
+      <p class="team-subtitle">35 Wasquehalien·nes engagé·es pour leur ville</p>
+      <div class="team-photo-wrapper">
         <img
-          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://wasquehal-vivante.fr/"
-          alt="QR Code vers wasquehal-vivante.fr"
-          class="qr-code-img"
+          src="Wasquehal-Vivante-Groupe-low.jpg"
+          alt="L'équipe Wasquehal Vivante"
+          class="team-photo"
           loading="lazy"
+          draggable="false"
         >
       </div>
-      <p class="share-hint">Scannez pour partager http://wasquehal-vivante.fr/</p>
-    </div>
+    </section>
   `;
 
   animateIn();

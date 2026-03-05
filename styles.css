@@ -310,7 +310,7 @@ a      { text-decoration: none; color: inherit; }
   right: -5%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(233, 46, 108, 0.30) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(233, 46, 108, 0.40) 0%, transparent 65%);
   pointer-events: none;
 }
 
@@ -322,7 +322,7 @@ a      { text-decoration: none; color: inherit; }
   left: 30%;
   width: 200px;
   height: 200px;
-  background: radial-gradient(circle, rgba(129, 188, 56, 0.12) 0%, transparent 60%);
+  background: radial-gradient(circle, rgba(129, 188, 56, 0.18) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -341,43 +341,35 @@ a      { text-decoration: none; color: inherit; }
 .hero-content { flex: 1; position: relative; z-index: 1; }
 
 .hero-list {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: 6px;
-  background: linear-gradient(90deg, #fff 0%, #d0e0ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
 }
 
 .hero-candidate {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.70);
-  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
 }
 
-.hero-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+.hero-election {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.45);
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
 }
 
-.hero-tag {
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 12px;
-  border-radius: var(--r-full);
-  border: 1px solid rgba(255,255,255,0.25);
-  color: rgba(255,255,255,0.85);
-  background: rgba(255,255,255,0.08);
-}
-
-.hero-tag-accent {
-  background: rgba(233, 46, 108, 0.30);
-  border-color: rgba(233, 46, 108, 0.50);
-  color: #ffb3cc;
+.hero-tagline {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.80);
+  margin-top: 6px;
+  line-height: 1.4;
 }
 
 /* ============================================================
@@ -831,108 +823,120 @@ a      { text-decoration: none; color: inherit; }
    NOUVELLES FONCTIONNALITÉS (Random, Share, Join)
    ============================================================ */
 
-/* 1. Bouton "Mesure Aléatoire" - Style harmonisé avec les cartes thèmes */
-.random-prop-section {
-  display: flex;
-  justify-content: center;
-  margin: 40px 0;
-}
+/* 1. Carte "Mesure Aléatoire" dans la grille */
 
-.btn-random {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 20px 28px;
-  background: #1e293b; /* Gris anthracite profond */
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-left: 5px solid #4a5a75; /* Gris un peu plus clair au repos */
-  border-radius: var(--r-lg);
-  cursor: pointer;
-  text-align: left;
-  transition: all 0.22s ease;
-  max-width: 400px;
-  width: 100%;
-  color: #fff; /* Texte blanc */
-  font-family: inherit;
-  box-shadow: 0 4px 14px rgba(30, 41, 59, 0.25);
-}
-
-.btn-random:hover {
-  background: #2a384e; /* Éclaircir légèrement au survol */
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.4);
-  border-left-color: #64748b; /* Gris clair au survol */
-}
-
-.btn-random-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  flex-shrink: 0;
-  transition: transform 0.22s ease, background 0.22s ease;
+.random-card {
+  background: #1e293b;
+  border-color: transparent;
+  border-left: 5px solid #4a5a75;
   color: #fff;
 }
-
-.btn-random:hover .btn-random-icon {
-  transform: scale(1.1) rotate(15deg);
-  background: rgba(255, 255, 255, 0.2);
+.random-card .card-title { color: #fff; }
+.random-card .card-desc  { color: #94a3b8; }
+.random-card .random-icon-wrap {
+  background: rgba(255, 255, 255, 0.10);
+}
+.random-card:hover {
+  background: #2a384e;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.4);
+  border-color: transparent;
+  border-left-color: #64748b;
+}
+.random-card:hover .random-icon-wrap {
+  background: rgba(255, 255, 255, 0.20);
 }
 
-.btn-random-text {
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff; /* Titre blanc */
+/* 2. Bloc "Télécharger + Partager" — deux cartes côte à côte */
+.programme-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-width: 680px;
+  margin: 48px auto 0;
 }
 
-.btn-random-subtext {
-  font-size: 13px;
-  color: #94a3b8; /* Sous-titre gris clair (slate-400) */
-  font-weight: 400;
-  margin-top: 2px;
-}
-
-/* 2. Section "Partagez le programme" (QR Code) */
-.share-section {
-  margin-top: 60px;
-  padding: 40px;
-  background: #fff;
-  border: 1.5px solid var(--border-subtle);
-  border-radius: var(--r-xl);
-  text-align: center;
+.programme-action-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
+  padding: 28px 20px;
+  background: #fff;
+  border: 1.5px solid var(--border-subtle);
+  border-radius: var(--r-lg);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
-.share-title {
-  font-size: 22px;
-  font-weight: 800;
+a.programme-action-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 22px rgba(32, 58, 106, 0.12);
+  border-color: var(--border-light);
+}
+
+.programme-action-icon {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.programme-action-text {
+  font-size: 15px;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
-.qr-container {
-  padding: 16px;
-  background: #fff;
-  border-radius: var(--r-md);
-  box-shadow: 0 4px 12px rgba(32, 58, 106, 0.08);
-  border: 1px solid var(--border-subtle);
+.programme-action-sub {
+  font-size: 12.5px;
+  color: var(--text-muted);
 }
 
-.qr-code-img {
-  width: 150px;
-  height: 150px;
+.programme-action-qr .qr-code-img {
+  width: 100px;
+  height: 100px;
   display: block;
 }
 
-.share-hint {
-  font-size: 13px;
+@media (max-width: 640px) {
+  .programme-actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Section "Votre équipe" */
+.team-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.team-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.team-subtitle {
+  font-size: 14px;
   color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.team-photo-wrapper {
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  border: 1.5px solid var(--border-subtle);
+  box-shadow: 0 4px 20px rgba(32, 58, 106, 0.10);
+}
+
+.team-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* 3. Bouton "Rejoindre l'équipe" (Footer) */

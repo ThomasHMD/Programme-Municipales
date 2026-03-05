@@ -55,6 +55,13 @@
           "summary": "Remettre sur le marché les 500 logements vacants de Wasquehal grâce à une structure dédiée.",
           "detail": "Wasquehal compte environ 500 logements vacants. Nous lancerons une Agence Communale de l'Immobilier qui :\n\n• Facilite la mise en location ou en vente des biens inoccupés\n• Sécurise les propriétaires (démarches, fiscalité, conseils)\n• Réduit les coûts de gestion locative\n• Protège les locataires (garanties, médiation)\n\nUne solution gagnant-gagnant : plus de logements disponibles, des propriétaires soutenus et des locataires protégés.",
           "related": ["log-5", "log-1"]
+        },
+        {
+          "id": "log-7",
+          "title": "Société foncière solidaire",
+          "summary": "Créer un outil public d'acquisition et de production de logements abordables, sans spéculation.",
+          "detail": "Nous créerons une société foncière solidaire pour permettre l'acquisition-amélioration, la production et l'achat de logements abordables, sans spéculation.\n\nCet outil complétera l'Agence Communale de l'Immobilier et contribuera à maîtriser les prix du foncier à Wasquehal, en protégeant les accédants à la propriété des logiques spéculatives du marché.",
+          "related": ["log-6", "log-2"]
         }
       ]
     },
@@ -77,7 +84,7 @@
           "id": "mob-2",
           "title": "Libérer les trottoirs pour tous",
           "summary": "Pour que les PMR, les parents avec poussette et les malvoyants puissent circuler en sécurité.",
-          "detail": "Les poubelles et voitures mal garées forcent les personnes à mobilité réduite, les parents avec poussette ou les malvoyants à se mettre en danger pour simplement circuler dans la ville.\n\nNous verbaliserons les stationnements gênants, les dépôts sauvages et les déjections canines non ramassées. Nous installerons davantage de distributeurs de sacs canins et reverrons l'emplacement des poubelles de ville.\n\nNous embellirons et verdirons les rues : fleurissement de tous les quartiers en s'appuyant sur les compétences du service municipal des espaces verts et la créativité des habitants.",
+          "detail": "Les poubelles et voitures mal garées forcent les personnes à mobilité réduite, les parents avec poussette ou les malvoyants à se mettre en danger pour simplement circuler dans la ville.\n\nNous verbaliserons les stationnements gênants et ajouterons des poubelles publiques et des distributeurs de sacs canins.\n\nNous lutterons contre les dépôts d'ordure sauvages avec l'astreinte des services techniques et un repositionnement intelligent des caméras de surveillance.\n\nNous embellirons et verdirons les rues : fleurissement de tous les quartiers en s'appuyant sur les compétences du service municipal des espaces verts et la créativité des habitants.",
           "related": ["mob-4", "inc-1"]
         },
         {
@@ -113,9 +120,9 @@
         },
         {
           "id": "mob-7",
-          "title": "Animaux : propreté urbaine et bien-être animal",
-          "summary": "Plus de poubelles, plus de distributeurs de sacs canins, amélioration des parcs canins et soutien à la stérilisation des animaux errants.",
-          "detail": "Nous installerons davantage de poubelles et de distributeurs de sacs canins dans toute la ville et renforcerons la prévention et les sanctions pour les déjections non ramassées.\n\nNous améliorerons les parcs canins existants (revêtement, séparation par taille de chien). Nous soutiendrons la stérilisation des animaux errants. Nous étudierons la création d'une plateforme municipale de garde d'animaux entre Wasquehaliens.",
+          "title": "Condition animale et propreté urbaine",
+          "summary": "Amélioration des parcs canins, réseau de garde solidaire, pigeonnier contraceptif, élu·e délégué·e à la condition animale.",
+          "detail": "Nous améliorerons le parc canin de l'avenue JP Sartre avec un éclairage et une fontaine à eau pour chiens, et garantirons son maintien avec la MEL.\n\nNous créerons un réseau solidaire de garde d'animaux pour permettre à des volontaires d'accueillir les compagnons en l'absence de leurs propriétaires et prévenir les abandons.\n\nNous installerons un pigeonnier contraceptif place Mendes France pour réguler les pigeons de façon écologique et sans nuire à leur bien-être.\n\nNous responsabiliserons les propriétaires de chiens indélicats dans la collecte des déjections de leur animal, avec davantage de poubelles et de distributeurs de sacs canins.\n\nNous désignerons un ou une élu·e comme délégué·e à la condition animale.",
           "related": ["mob-2", "mob-8"]
         },
         {
@@ -138,21 +145,21 @@
           "id": "vie-1",
           "title": "Cantines 100 % bio — régie agricole municipale",
           "summary": "50 % bio en 2029, 80 % en 2032, en exploitant les 5 ha du Sentier du Laurier (1 600 repas/jour).",
-          "detail": "Nous dirigerons la ville vers le 100 % de nourriture bio dans les cantines scolaires : 50 % en 2029 et 80 % en 2032.\n\nNous exploiterons les 5 hectares de terres agricoles au Sentier du Laurier, pouvant fournir jusqu'à 1 600 repas en fruits et légumes par jour, toute l'année. Dès que possible, nous créerons une régie agricole et une cuisine centrale municipales. Nous recruterons un maraîcher professionnel et mobiliserons l'association Initiatives Jeunesse pour des chantiers d'insertion.\n\nNous contracterons avec les producteurs bio de la Métropole et du Nord-Pas-de-Calais pour des circuits courts.\n\n💡 Le 100 % bio coûte moins cher : la dépollution des eaux coûte 20 à 30 fois plus cher que le passage au bio. Les agences de l'eau subventionnent ces projets.",
+          "detail": "Nous dirigerons la ville vers le 100 % de nourriture bio dans les cantines scolaires et les restaurants municipaux : 50 % en 2029 et 80 % en 2032.\n\nNous exploiterons les 5 hectares de terres agricoles au Sentier du Laurier, pouvant fournir jusqu'à 1 600 repas en fruits et légumes par jour, toute l'année. Nous recruterons un maraîcher professionnel et mobiliserons l'association Initiatives Jeunesse pour des chantiers d'insertion et de formation aux métiers de travailleurs agricoles.\n\nNous déploierons une légumerie et une cuisine centrale intercommunales, dès que possible. Nous contracterons avec les producteurs bio de la Métropole et du département pour des circuits courts et directs du producteur au consommateur.\n\n💡 Le 100 % bio coûte moins cher : la dépollution des eaux coûte 20 à 30 fois plus cher que le passage au bio. Les agences de l'eau subventionnent ces projets.",
           "related": ["cli-3", "vie-7"]
         },
         {
           "id": "vie-2",
           "title": "Festivités gratuites toute l'année dans tous les quartiers",
           "summary": "Allumoirs, fête de la musique, 14 juillet, Wasquehal Plage, sardinades, festival de soupe… pour se réunir et se réjouir.",
-          "detail": "Wasquehal mérite des occasions de se réunir et de vivre des moments de joie collective. Nous organiserons des festivités gratuites toute l'année dans tous les quartiers :\n\nAllumoirs, Saint-Valentin, chasse aux œufs, fête de la musique, 14 juillet, Wasquehal Plage…\n\nEt bien sûr des occasions de manger ensemble : cornets de frites, festival de soupe, sardinades, food trucks.\n\nDes manifestations artistiques populaires : concerts, bals populaires, expositions, projections en plein air. Des artistes locaux de tous les âges mis en avant. Des espaces pour apprendre et pratiquer les arts.",
+          "detail": "Wasquehal mérite des occasions de se réunir et de vivre des moments de joie collective. Nous créerons un comité des fêtes pour inciter à l'organisation d'événements dans tous les quartiers.\n\nNous organiserons des festivités gratuites toute l'année : Allumoirs, Saint-Valentin, chasse aux œufs, fête de la musique, 14 juillet, Wasquehal Plage…\n\nEt bien sûr des occasions de manger ensemble : cornets de frites, festival de soupe, sardinades, food trucks.\n\nDes manifestations artistiques populaires : concerts, bals populaires, expositions, cinéma en plein air. Des artistes locaux de tous les âges mis en avant. Des espaces pour apprendre et pratiquer les arts.",
           "related": ["vie-3", "dem-1"]
         },
         {
           "id": "vie-3",
           "title": "Soutien aux associations, équipements et Conservatoire",
           "summary": "Des financements justes, un accès transparent aux équipements — et réparer ce qui ne fonctionne plus.",
-          "detail": "Chaque association, sportive ou culturelle, sera soutenue à la hauteur de son engagement. Fin du favoritisme et des oublis : une aide juste et transparente pour toutes et tous.\n\nNous sauverons la Manivelle Théâtre, actuellement en danger. Nous remettrons sur pied le Wasquehal Football. Nous valoriserons le Conservatoire de musique et de danse et lui redonnerons les moyens de fonctionner.\n\nNous réglerons les problèmes concrets : canalisations du Dojo Gérard Vignoble, étanchéité de la salle Adams, bar du cinéma Gérard Philipe, système de chauffage du Conservatoire.\n\nOuverture de créneaux de pratique libre dans les équipements sportifs. Programmation annuelle de conférences historiques et scientifiques.",
+          "detail": "Chaque association, sportive ou culturelle, sera soutenue à la hauteur de son engagement, de ses projets et de son utilité publique. Fin du favoritisme et des « oublis » : une aide juste et transparente pour toutes et tous.\n\nNous sauverons la Manivelle Théâtre, actuellement en danger, en réunissant l'ensemble des co-financeurs. Nous réaménagerons ou déménagerons le Conservatoire Municipal pour en faire un vrai lieu de pratique musicale, avec des salles de répétition isolées phoniquement. Nous confirmerons la dynamique du cinéma Gérard Philippe en ajoutant des séances et en diversifiant sa programmation.\n\nNous rénoverons le city stade du Centre, la salle de boxe, de gymnastique et de rink hockey. Nous remettrons sur pied le Wasquehal Football en le restructurant en 3 sections : école, académie et élite — permettre à tous les enfants qui veulent jouer au foot de le faire, sans sélection, sans liste d'attente.\n\nNous ferons cesser le chantage aux créneaux : un accès transparent et démocratique aux salles municipales pour les associations et les mobilisations citoyennes. Des créneaux de pratique libre dans les équipements sportifs.\n\nNous assurerons le confort des équipements sportifs : canalisations du Dojo Gérard Vignoble, étanchéité de la salle Adams. Nous garantirons le maintien des éducateurs sportifs dans les écoles et les structures municipales (crèches, résidences autonomies…).\n\nProgrammation annuelle de conférences scientifiques, culturelles, historiques.",
           "related": ["vie-2", "jeu-1"]
         },
         {
@@ -166,7 +173,7 @@
           "id": "vie-5",
           "title": "Commerces de proximité : loyers, zones prioritaires, foire",
           "summary": "Aides aux loyers, zones commerçantes prioritaires (Capreau, Haut Vinage, Orée du Golf), foire commerciale annuelle.",
-          "detail": "Nous aiderons à maintenir et à attirer des commerces dans les zones sous-équipées grâce à des aides aux loyers et à l'acquisition de cellules commerciales.\n\nNous définirons des Zones Commerçantes Prioritaires : Capreau, Haut Vinage et Orée du Golf.\n\nNous organiserons une foire commerciale annuelle pour dynamiser l'activité locale. Nous soutiendrons l'épicerie solidaire et lui proposerons plus de choix. Nous encouragerons la création de supermarchés coopératifs (type Super Quinquin).\n\nNous intégrerons les entreprises wasquehaliennes dans la vie locale : sponsoring associatif, foire aux stages, journées portes ouvertes dans les lycées professionnels.",
+          "detail": "Nous réinstallerons un marché au Capreau le samedi matin et ferons venir des food trucks au Haut Vinage. Nous définirons le Capreau comme zone commerçante prioritaire.\n\nNous aiderons à maintenir et à attirer des commerces dans les zones sous-équipées grâce à des aides aux loyers et à l'acquisition de cellules commerciales.\n\nNous organiserons une quinzaine commerciale et une grande tombola financées par la commune pour inciter les Wasquehaliens à fréquenter les petits commerces de la ville.\n\nNous favoriserons l'installation d'un supermarché coopératif, comme Super Quinquin, qui vendra des produits de qualité à des prix très compétitifs. Nous soutiendrons l'épicerie solidaire et lui proposerons plus de choix dans les produits disponibles.\n\nNous intégrerons les entreprises wasquehaliennes dans la vie locale : sponsoring associatif, foire aux stages, journées portes ouvertes dans les lycées professionnels.",
           "related": ["vie-6", "mob-4"]
         },
         {
@@ -182,6 +189,13 @@
           "summary": "Soutenir l'épicerie solidaire, encourager les coopératives alimentaires (Super Quinquin), développer les circuits bio locaux.",
           "detail": "Nous soutiendrons l'épicerie solidaire et lui proposerons plus de choix dans les denrées disponibles, en lien avec les producteurs locaux.\n\nNous encouragerons la création de supermarchés coopératifs à Wasquehal, sur le modèle du Super Quinquin à Lille.\n\nNous travaillerons avec les restaurateurs et commerces de la ville pour favoriser l'approvisionnement auprès de producteurs du territoire — dans le cadre de notre label « 3 Fourchettes Territoire Bio ».",
           "related": ["vie-1", "vie-5"]
+        },
+        {
+          "id": "vie-8",
+          "title": "Accueillir des annexes de festivals à Wasquehal",
+          "summary": "Encourager la venue de festivals dans les équipements culturels de Wasquehal : Lillarious, Series Mania, Jazz en Nord, Cité Philo…",
+          "detail": "Nous encouragerons la venue d'annexes de festivals dans les équipements culturels de Wasquehal : Lillarious, Series Mania, Jazz en Nord, Cité Philo, Montagne en Scène…\n\nObjectif : faire rayonner Wasquehal dans le paysage culturel métropolitain et offrir aux habitants un accès de proximité à des événements de qualité.",
+          "related": ["vie-2", "vie-3"]
         }
       ]
     },
@@ -203,7 +217,7 @@
           "id": "jeu-2",
           "title": "Maison de la jeunesse (15 ans et plus)",
           "summary": "Un espace ouvert le soir et les week-ends : safe place, loisirs, création, écoute — particulièrement en été.",
-          "detail": "Wasquehal offre peu de loisirs pour les adolescents, particulièrement en été. Nous créerons une maison de la jeunesse ouverte aux jeunes de 15 ans et plus :\n\n• Une safe place et un lieu d'écoute\n• Un lieu de loisirs : mangas, tournois de jeux vidéo, fêtes sans alcool\n• Un lieu de création : imprimantes 3D, travail du bois et de la mécanique\n• Des horaires d'ouverture tardifs, particulièrement en été\n• Soirées ciné-débat, éducation populaire\n\nUn espace sûr et ouvert aux expérimentations qui forment la jeunesse.",
+          "detail": "Nous ouvrirons un tiers-lieu créatif, technologique et festif dans l'ancien transformateur de l'avenue JP Sartre, ouvert aux jeunes de 15 ans et plus :\n\n• Une safe place ouverte en soirée dont l'entrée sera libre et gratuite\n• Un lieu de loisirs : musique, concerts, mangas, jeux vidéo, fêtes sans alcool\n• Un lieu d'écoute et d'information : soirées ciné-débat, éducation populaire\n• Un lieu de création : imprimantes 3D, travail du bois, de l'électronique et de la mécanique\n• Un lieu à vocation intergénérationnelle et de transmission\n• Des horaires d'ouverture tardifs, particulièrement en été\n\nUn espace sûr et ouvert aux expérimentations qui forment la jeunesse.",
           "related": ["jeu-1", "vie-3"]
         },
         {
@@ -216,9 +230,16 @@
         {
           "id": "jeu-4",
           "title": "Égalité des chances : stages, permis, fournitures",
-          "summary": "Bureau des stages, aide au permis de conduire, gratuité des fournitures scolaires et aide aux devoirs généralisée.",
-          "detail": "L'égalité des chances commence par le droit à l'expérience. Nous créerons un bureau des stages et un annuaire des entreprises wasquehaliennes pour faciliter les mises en relation jeunesse-entreprises, notamment lors de foires aux stages et journées découvertes.\n\nNous aiderons les jeunes à passer le permis de conduire.\n\nNous garantirons la gratuité des fournitures scolaires dans toutes les écoles de Wasquehal.\n\nNous généraliserons l'aide aux devoirs avec des personnels formés à la pédagogie.",
+          "summary": "Bureau des stages, aide au permis jusqu'à 100 %, gratuité des fournitures scolaires et aide aux devoirs généralisée.",
+          "detail": "L'égalité des chances commence par le droit à l'expérience. Nous créerons un bureau des stages pour mettre en lien le réseau des professionnels et des entreprises de Wasquehal avec les élèves et les étudiants, notamment lors de foires aux stages et journées découvertes.\n\nNous aiderons les jeunes à passer le permis de conduire, jusqu'à 100 %, sans condition.\n\nNous garantirons la gratuité des fournitures scolaires dans toutes les écoles de Wasquehal, pour simplifier la vie des parents, l'organisation des enseignants et éviter la jalousie des enfants.\n\nNous généraliserons l'aide aux devoirs dans toutes les écoles avec des personnels formés à la pédagogie.",
           "related": ["jeu-2", "fam-6"]
+        },
+        {
+          "id": "jeu-5",
+          "title": "Salles d'étude pour lycéens et étudiants",
+          "summary": "Ouvrir des salles d'étude à la bibliothèque et ses annexes pour permettre aux jeunes de travailler et réviser sereinement.",
+          "detail": "Nous ouvrirons des salles d'étude à la bibliothèque municipale et ses annexes pour permettre aux lycéens et aux étudiants de travailler et réviser sereinement.\n\nDes espaces calmes, accessibles et adaptés, ouverts à des horaires larges, pour que chaque jeune dispose d'un lieu propice à la concentration et à la réussite.",
+          "related": ["jeu-2", "jeu-4"]
         }
       ]
     },
@@ -270,6 +291,20 @@
           "summary": "Plus de diversité, entretien régulier, espaces confortables pour les parents — et un vendeur à vélo dans les parcs.",
           "detail": "Nous améliorerons l'offre d'aires de jeux sur tout le territoire de Wasquehal :\n\n• Une plus grande diversité des activités proposées\n• Un entretien plus régulier du matériel et des espaces verts\n• Des espaces plus confortables pour les parents et accompagnateurs\n• Un vendeur à vélo de café et boissons fraîches dans tous les parcs\n\nParce que jouer dehors, c'est essentiel — et que les parents méritent aussi d'être à l'aise.",
           "related": ["vie-4", "cli-2"]
+        },
+        {
+          "id": "fam-7",
+          "title": "ALSH à la ferme Dehaudt",
+          "summary": "Réouvrir un ALSH à la ferme Dehaudt avec de nouvelles activités pédagogiques.",
+          "detail": "Nous réouvrirons un Accueil de Loisirs Sans Hébergement (ALSH) à la ferme Dehaudt, avec de nouvelles activités pédagogiques : découverte de la nature, jardinage, ateliers créatifs.\n\nUn lieu d'épanouissement pour les enfants, au contact de la nature et du vivant.",
+          "related": ["fam-6", "vie-1"]
+        },
+        {
+          "id": "fam-8",
+          "title": "Places ALSH garanties le mercredi et les vacances",
+          "summary": "Fin de la logique « premier arrivé, premier servi » — garantir le nombre de places nécessaires pour tous les enfants.",
+          "detail": "Nous garantirons le nombre de places nécessaires pour les ALSH du mercredi et des vacances.\n\nFin de la logique du « premier arrivé, premier servi » qui stresse les parents et laisse des enfants délocalisés ou sans solution. Chaque famille doit pouvoir compter sur une place pour ses enfants.\n\nNous ouvrirons de nouveaux centres sportifs, dans d'autres salles municipales, pour les vacances.",
+          "related": ["fam-1", "fam-2"]
         }
       ]
     },
@@ -284,7 +319,7 @@
           "id": "ser-1",
           "title": "CCAS renforcé et aide aux personnes âgées",
           "summary": "Plus de travailleurs sociaux, service de transport pour les seniors, foyers de quartier pour rompre l'isolement.",
-          "detail": "Nous soutiendrons le CCAS, dont le rôle est capital dans la vie quotidienne de nombreux Wasquehaliens. Nous augmenterons le nombre de travailleurs sociaux et améliorerons la qualité de l'accompagnement par une démarche proactive d'information sur les droits.\n\nNous créerons des foyers dans les quartiers : des lieux de convivialité et d'entraide pour rompre l'isolement des personnes âgées et de tous ceux qui en ont besoin.\n\nNous développerons un service de transport et de covoiturage dédié aux seniors pour accéder aux restaurants municipaux, aux soins et aux activités.",
+          "detail": "Nous rétablirons le budget du CCAS, qui a été divisé par 2 en 5 ans. Nous augmenterons le nombre de travailleurs sociaux et améliorerons la qualité de l'accompagnement par une démarche proactive d'information sur les droits, de simplification des démarches et de meilleure écoute.\n\nNous rétablirons des guichets d'accueil physique pour toutes les démarches afin d'éviter l'exclusion numérique, tout en renforçant les formations au numérique pour aider nos anciens à rester connectés avec leur famille.\n\nNous créerons des foyers dans les quartiers : des lieux de convivialité et d'entraide pour rompre l'isolement des personnes âgées. Nous y organiserons des animations culturelles, physiques et mentales : jardinage, café rencontres, gymnastique douce.\n\nNous développerons le système d'accompagnement et de transport des personnes âgées pour répondre à toutes les demandes : restaurants municipaux, soins, activités.",
           "related": ["log-4", "vie-6"]
         },
         {
@@ -298,7 +333,7 @@
           "id": "ser-3",
           "title": "Police de proximité : la politique du résultat",
           "summary": "Des médiateurs de rue, un psychologue, des ASVP, un garde champêtre — 1 agent pour 1 000 habitants.",
-          "detail": "La politique du chiffre a montré ses limites. Nous pratiquerons la politique du résultat : des gens sur le terrain, qui rassurent, apaisent et interviennent rapidement.\n\nNous réorganiserons la police municipale et augmenterons les effectifs (objectif : 1 agent pour 1 000 habitants). Le corps sera diversifié :\n\n• Médiateurs de rue pour les relations avec la jeunesse\n• 1 psychologue\n• 2 ASVP pour la régulation de la circulation et du parking\n• 1 garde champêtre pour la propreté des espaces naturels\n\nNous obtiendrons un équipage de police nationale supplémentaire pour Wasquehal. Plus de transparence sur les caméras de surveillance.",
+          "detail": "La politique du chiffre a montré ses limites. Nous pratiquerons la politique du résultat : des agents présents sur le terrain, à pied et à vélo, au contact de la population, qui rassurent, apaisent, prennent du renseignement et interviennent plus rapidement et plus souvent.\n\nNous réorganiserons la police municipale et augmenterons les effectifs (objectif : 1 agent pour 1 000 habitants). Le corps sera diversifié :\n\n• Médiateurs de rue et éducateurs de rue pour les relations avec la jeunesse\n• 1 psychologue\n• Des ASVP pour le stationnement, le canal et la propreté\n• 1 garde champêtre\n\nNous obtiendrons un équipage de Police Nationale supplémentaire, fléché sur Wasquehal et ses alentours.\n\nDes caméras qui servent à quelque chose : lutte contre les déchets sauvages, les délits routiers, et contribution au renseignement judiciaire.\n\nNous rendrons publics les réunions et les comptes-rendus du Conseil Local de Sécurité et de Prévention de la Délinquance (CLSPD). Nous organiserons chaque année une réunion publique en présence du Commissaire de secteur, pour présenter et discuter des progrès en matière de tranquillité publique.",
           "related": ["dem-1", "ser-4"]
         },
         {
@@ -306,7 +341,7 @@
           "title": "Remunicipalisation des services publics",
           "summary": "Fin du démantèlement au profit du privé — eau, restauration, salage — et création d'une régie de quartier.",
           "mel": true,
-          "detail": "Nous mettrons fin au démantèlement des services municipaux au profit d'entreprises privées. Nous remunicipaliserons un maximum de délégations de services publics : eau, restauration, salage des routes.\n\nNous mettrons en place une régie de quartier pour les petits travaux de dépannage.\n\nNous fléchemons la commande publique vers les entreprises wasquehaliennes en priorité, et dans la Métropole à défaut. Nous sourceons au maximum des matériaux et productions locales.",
+          "detail": "Nous réinternaliserons les missions essentielles : services techniques, espaces verts, nettoyage, voirie. Pour faire des économies et gagner en efficacité et en réactivité.\n\nNous mettrons fin au démantèlement des services municipaux au profit d'entreprises privées. Nous remunicipaliserons un maximum de délégations de services publics : eau, restauration, salage des routes.\n\nNous développerons des régies de quartier pour les petits travaux de dépannage, d'entretien et de nettoyage.\n\nNous fléchemons la commande publique vers les entreprises wasquehaliennes en priorité, et dans la Métropole à défaut. Nous sourceons au maximum des matériaux et productions locales.",
           "related": ["ser-1", "vie-1"]
         },
         {
@@ -314,8 +349,15 @@
           "title": "Wasquehal dans la Métropole Européenne de Lille",
           "summary": "Défendre les intérêts de Wasquehal à la MEL et développer les coopérations avec les communes voisines.",
           "mel": true,
-          "detail": "Wasquehal doit retrouver sa place centrale dans la Métropole Européenne de Lille. Nous défendrons ses intérêts avec détermination : transports interurbains, rénovation des axes routiers, gestion des déchets.\n\nNous sortirons Wasquehal de son isolement et développerons des coopérations avec Croix, Roubaix, Marcq-en-Barœul, Hem, Mouvaux et Villeneuve-d'Ascq : accès croisé aux équipements, marchés publics, ouverture du conservatoire, alignement des tarifs de cantine.\n\nVoter le 15 mars pour Wasquehal Vivante, c'est aussi choisir vos représentants à la MEL.",
+          "detail": "Wasquehal doit retrouver sa place centrale dans la Métropole Européenne de Lille. Nous défendrons ses intérêts avec détermination : transports publics performants, rénovation des routes, gestion exemplaire de l'eau et des déchets.\n\nNous sortirons Wasquehal de son isolement et développerons les coopérations avec nos communes voisines — Croix, Roubaix, Marcq-en-Barœul, Hem, Mouvaux, Villeneuve-d'Ascq — pour aligner les tarifs (cantine, périscolaire, conservatoire, associations sportives), l'accès aux équipements, aux parcs, à la plaine de jeux et les marchés publics.\n\nNous accompagnerons les entreprises dans leurs démarches de Responsabilité Sociale et Environnementale (RSE). Nous mettrons en valeur les entreprises locales en organisant des foires festives inspirées du marché de Noël, pour promouvoir les productions artisanales et le savoir-faire du lycée professionnel.\n\nNous co-construirons un réseau de navettes reliant les grands axes de transports en commun et les zones d'activité et d'emploi pour favoriser les déplacements verts et diminuer les embouteillages aux heures de pointe.\n\nVoter le 15 mars pour Wasquehal Vivante, c'est aussi choisir vos représentants à la MEL.",
           "related": ["mob-4", "ser-4"]
+        },
+        {
+          "id": "ser-6",
+          "title": "Centre de santé pluridisciplinaire au Capreau",
+          "summary": "Implanter un centre de santé pluridisciplinaire pour rapprocher les soins des habitants et développer le sport sur ordonnance.",
+          "detail": "Nous implanterons un centre de santé pluridisciplinaire au Capreau pour garantir un accès de proximité aux soins pour tous les Wasquehaliens.\n\nNous encouragerons les associations sportives à prendre en charge le sport sur ordonnance, pour permettre aux personnes atteintes de maladies chroniques de pratiquer une activité physique adaptée.",
+          "related": ["jeu-1", "ser-1"]
         }
       ]
     },
@@ -330,21 +372,21 @@
           "id": "dem-1",
           "title": "Conseils de quartier avec vrai pouvoir et budget",
           "summary": "Budget annuel, pouvoir décisionnel et Maires de Quartier — plus de rôle purement consultatif.",
-          "detail": "Nous rendrons aux Conseils de Quartier leur statut d'antennes politiques réelles. Ils ne seront plus cantonnés à un rôle consultatif : ils disposeront d'un budget annuel pour mener des projets d'aménagement et d'organisation.\n\nDes membres du Conseil Municipal seront nommés Adjoints avec pour fonction d'assurer le rôle de Maire de Quartier, facilitant la communication des problèmes urgents entre les habitants et la mairie.\n\nLes Conseils de Quartier traiteront les sujets du quotidien et remonteront aux élus informations et préoccupations.",
+          "detail": "Nous donnerons de l'autonomie et du pouvoir de décision aux Conseils de Quartier. Ils ne seront plus cantonnés à un rôle consultatif : ils disposeront d'un budget annuel pour mener des projets d'aménagement et d'organisation.\n\nNous mettrons en place des budgets participatifs dans chaque quartier.\n\nDes membres du Conseil Municipal seront nommés Adjoints — Maires de Quartier — pour faciliter la remontée des problèmes urgents et le traitement des problématiques sur le long terme.\n\nLes Conseils de Quartier traiteront les sujets du quotidien et remonteront aux élus informations et préoccupations.",
           "related": ["mob-8", "dem-2"]
         },
         {
           "id": "dem-2",
           "title": "Transparence totale et conseils filmés en ligne",
           "summary": "Conseils municipaux en ligne avec sous-titrage, budget accessible, calendriers de décision publics.",
-          "detail": "La transparence sera systématique :\n\n• Publicité des calendriers de décision, communications et décisions du Conseil Municipal\n• Budget municipal rendu facilement accessible et compréhensible pour tous\n• Capture vidéo systématique des conseils municipaux, publication en ligne avec sous-titrage\n• Temps de parole citoyens à l'ordre du jour de chaque Conseil Municipal\n\nStéphanie Ducret a construit une pratique du pouvoir clivante et clientéliste. Nous ouvrons les portes de l'Hôtel de Ville.",
+          "detail": "La transparence sera systématique :\n\n• Retransmission en direct et sous-titrage des conseils municipaux et réunions institutionnelles\n• Première réponse garantie en 48h aux questions citoyennes, avec suivi de l'avancée du traitement\n• Publication en opendata des informations et statistiques importantes de la commune : budgets, projets, indicateurs\n• Transparence budgétaire : rendre le budget municipal plus compréhensible et ses décisions plus lisibles\n• Droit d'interpellation des élus à la fin des conseils municipaux\n• Temps de parole citoyens à l'ordre du jour de chaque Conseil Municipal\n\nStéphanie Ducret a construit une pratique du pouvoir clivante et clientéliste. Nous ouvrons les portes de l'Hôtel de Ville.",
           "related": ["dem-1", "dem-3"]
         },
         {
           "id": "dem-3",
           "title": "Droit d'initiative citoyenne et référendum révocatoire",
           "summary": "Par pétition, les Wasquehaliens pourront inscrire des sujets à l'ordre du jour du Conseil Municipal.",
-          "detail": "Nous reconnaîtrons un droit d'initiative et d'interpellation citoyenne : les Wasquehaliens pourront, sur la base d'une pétition, inscrire des questions ou des propositions à l'ordre du jour du Conseil Municipal.\n\nNous rendrons obligatoires les consultations citoyennes pour toute modification majeure des services publics municipaux.\n\nNous mettrons en place une procédure de référendum révocatoire du Maire, des Adjoints et des Maires de Quartier.",
+          "detail": "Nous reconnaîtrons un droit d'initiative et d'interpellation citoyenne : les Wasquehaliennes et Wasquehaliens pourront, sur la base d'une pétition officielle, inscrire des questions ou des propositions à l'ordre du jour du Conseil Municipal.\n\nNous rendrons obligatoires les consultations citoyennes pour les grands projets d'aménagement (ex : avenue JP Sartre) et toute modification majeure des services publics municipaux.\n\nNous mettrons en place une procédure de référendum révocatoire du Maire, des Adjoints et des Maires de Quartier.",
           "related": ["dem-2", "dem-4"]
         },
         {
@@ -374,7 +416,7 @@
           "id": "cli-1",
           "title": "Verdure en ville : îlots de fraîcheur dans chaque quartier",
           "summary": "Permis de végétaliser, jardins partagés, refleurissement de tous les quartiers avec les conseils de quartier.",
-          "detail": "Plus de verdure en ville constitue à la fois des îlots de fraîcheur et un embellissement des quartiers. Notre approche joint l'utile à l'agréable.\n\nNous mettrons en place un permis de végétaliser les habitations dans le respect des règles d'urbanisme. Nous travaillerons avec les conseils de quartier à l'installation de petits jardins partagés.\n\nNous refleurirons tous les quartiers en nous appuyant sur les compétences du service municipal des espaces verts et la créativité des habitants : fleurs et fraîcheur partout.",
+          "detail": "Plus de verdure en ville constitue à la fois des îlots de fraîcheur et un embellissement des quartiers. Notre approche joint l'utile à l'agréable.\n\nNous fleurirons la ville à nouveau en lançant le dispositif « adopte une jardinière » : des fleurs, des plantes, des bulbes mis à disposition des volontaires pour qu'ils puissent embellir une jardinière, un bac à fleurs, un coin de verdure près de chez eux.\n\nNous encouragerons les habitants et les commerçants à habiller les murs de verdure : végétaliser leur façade avec des plantes pour rafraîchir la ville et l'embellir.\n\nNous mettrons en place un permis de végétaliser les habitations dans le respect des règles d'urbanisme. Nous travaillerons avec les conseils de quartier à l'installation de petits jardins partagés et planterons des arbres ou arbustes à la place du macadam inutile.",
           "related": ["cli-2", "mob-8"]
         },
         {
@@ -389,7 +431,7 @@
           "title": "Gestion des déchets repensée",
           "summary": "Refonte des Points d'Apport Volontaire, ressourcerie municipale, lutte contre les produits à usage unique.",
           "mel": true,
-          "detail": "Il faut repenser en profondeur les Points d'Apport Volontaire : faciliter leur utilisation, rendre leur présence plus discrète et donc plus esthétique, éviter la prolifération des odeurs en été.\n\nNous mettrons à disposition une ressourcerie municipale pour l'entretien et le réemploi des objets, en coopérant avec les associations qui travaillent déjà sur ce sujet.\n\nNous inciterons les commerces à limiter au maximum la vente de produits à usage unique et faciliterons la mise en place d'alternatives. Les meilleurs déchets sont ceux qu'on ne produit pas.",
+          "detail": "Nous refuserons les Points d'Apport Volontaire (PAV) actuels et les remplacerons par des conteneurs enterrés ou d'autres solutions plus esthétiques et accessibles, là où ils sont nécessaires. Leur implantation sera décidée avec les conseils de quartier.\n\nNous développerons le Zéro Déchet et favoriserons l'entretien et le réemploi avec une ressourcerie locale, une objethèque et un repair café associatif, en coopérant avec les associations qui travaillent déjà sur ce sujet.\n\nNous inciterons les commerces à limiter au maximum la vente de produits à usage unique et faciliterons la mise en place d'alternatives. Les meilleurs déchets sont ceux qu'on ne produit pas.",
           "related": ["cli-4", "vie-1"]
         },
         {
@@ -403,7 +445,7 @@
           "id": "cli-5",
           "title": "Énergies renouvelables et autonomie énergétique",
           "summary": "Amender le PLU pour faciliter les panneaux solaires. Plus grande autonomie des équipements municipaux.",
-          "detail": "Nous travaillerons à une plus grande autonomie énergétique des équipements municipaux en employant toutes les méthodes à disposition.\n\nNous amenderons le PLU pour le rendre plus permissif et faciliter l'installation de sources d'énergies renouvelables (panneaux solaires, etc.) dans le parc immobilier privé comme public.\n\nÀ moyen terme, l'isolation thermique des logements anciens sera une priorité du mandat.",
+          "detail": "Nous investirons pour faire des économies :\n\n• Éclairage urbain à détection de présence\n• Isolation thermique des bâtiments publics\n• Décarbonation des sources d'énergie : panneaux solaires sur les toits, raccordement au réseau de chaleur urbain, pompes à chaleur et géothermie\n\nNous amenderons le PLU pour le rendre plus permissif et faciliter l'installation de sources d'énergies renouvelables dans le parc immobilier privé comme public.\n\nÀ moyen terme, l'isolation thermique des logements anciens sera une priorité du mandat.",
           "related": ["cli-4", "log-1"]
         },
         {
@@ -413,6 +455,13 @@
           "mel": true,
           "detail": "Les ménages les plus modestes souffrent en premier de la précarité énergétique, en hiver comme en été. Nous ne souffrons pas toutes et tous avec la même intensité des coûts énergétiques hivernaux et des températures caniculaires estivales.\n\nNous agirons avec la MEL pour renforcer les aides financières aux ménages en difficulté.\n\nNous organiserons avec la population des réunions et des diagnostics par quartier pour identifier les priorités d'action dès notre élection.",
           "related": ["cli-5", "log-1"]
+        },
+        {
+          "id": "cli-7",
+          "title": "Favoriser le retour de la biodiversité en ville",
+          "summary": "Aménager des espaces-refuges pour les oiseaux, les insectes pollinisateurs et les hérissons — leur offrir abri et nourriture.",
+          "detail": "Nous aménagerons des espaces-refuges en ville pour faire revenir les oiseaux, les insectes pollinisateurs et les hérissons, en leur offrant abri et nourriture.\n\nUne ville vivante, c'est aussi une ville où la nature retrouve sa place.",
+          "related": ["cli-1", "cli-2"]
         }
       ]
     },
@@ -441,14 +490,14 @@
           "id": "inc-3",
           "title": "École inclusive : cellule de coordination handicap-éducation",
           "summary": "Accompagner les familles, faire le lien avec les écoles, la MDPH et l'Éducation nationale.",
-          "detail": "Le manque d'AESH freine lourdement la scolarisation des enfants en situation de handicap. Nous créerons une cellule municipale de coordination handicap-éducation pour accompagner les familles et faire le lien avec les écoles, la MDPH et l'Éducation nationale.\n\nNous favoriserons l'accueil des enfants en situation de handicap au plus près de leur domicile (crèche, halte-garderie, écoles) : accessibilité des lieux, formation des personnels, activités adaptées.\n\nNous favoriserons l'achat de matériel adapté dans les écoles. Des ateliers associatifs de réparation prolongeront la durée de vie du matériel.",
+          "detail": "Le manque d'AESH freine lourdement la scolarisation des enfants en situation de handicap. Nous créerons une cellule municipale de coordination handicap-éducation pour accompagner les familles et faire le lien avec les écoles, la MDPH et l'Éducation nationale.\n\nNous faciliterons la vie des parents et des enfants disposant d'un Projet d'Accueil Individualisé (PAI) : ces enfants doivent être pleinement intégrés avec les autres enfants.\n\nNous formerons les agents municipaux à l'inclusion et à l'accueil des enfants à besoins éducatifs particuliers (TDA-H, TSA, TND).\n\nNous attribuerons un budget dédié aux écoles pour l'acquisition de matériels pédagogiques adaptés et développerons les activités périscolaires inclusives : sport, arts, culture, loisirs accessibles à toutes et tous. Des ateliers associatifs de réparation prolongeront la durée de vie du matériel.",
           "related": ["fam-1", "ser-2"]
         },
         {
           "id": "inc-4",
           "title": "Services municipaux inclusifs et emploi exemplaire",
           "summary": "Accessibilité des Conseils municipaux (LSF, FALC), plan de recrutement de personnes handicapées, lien avec l'AGEFIPH.",
-          "detail": "Nous garantirons l'accessibilité des Conseils Municipaux et de toutes les instances de participation citoyenne : traduction en LSF, documents en FALC, accessibilité numérique.\n\nLa Ville sera un employeur exemplaire : plan pluriannuel de recrutement de personnes en situation de handicap, avec un objectif de progression vers les seuils légaux, en lien avec l'AGEFIPH.\n\nNous formerons les animateurs et personnels périscolaires à l'accompagnement des enfants en situation de handicap, pour garantir des activités éducatives, sportives et culturelles sécurisées et adaptées.",
+          "detail": "Nous atteindrons enfin les 100 % de bâtiments publics accessibles. Nous aménagerons des parcours piétons sécurisés (éclairage, bancs, passages surbaissés, bandes podotactiles) et ouvrirons largement la Commission Communale d'Accessibilité à toutes les personnes concernées.\n\nNous développerons des outils numériques accessibles : site web, applications, documents administratifs en FALC (Facile À Lire et à Comprendre).\n\nNous garantirons l'accessibilité des Conseils Municipaux et de toutes les instances de participation citoyenne : traduction en LSF, documents en FALC.\n\nLa Ville sera un employeur exemplaire : plan pluriannuel de recrutement de personnes en situation de handicap, avec un objectif de progression vers les seuils légaux, en lien avec l'AGEFIPH.\n\nNous formerons les animateurs et personnels périscolaires à l'accompagnement des enfants en situation de handicap, pour garantir des activités éducatives, sportives et culturelles sécurisées et adaptées.",
           "related": ["ser-2", "dem-2"]
         },
         {
