@@ -826,24 +826,10 @@ a      { text-decoration: none; color: inherit; }
 /* 1. Carte "Mesure Aléatoire" dans la grille */
 
 .random-card {
-  background: #1e293b;
-  border-color: transparent;
-  border-left: 5px solid #4a5a75;
-  color: #fff;
+  border-left: 5px solid var(--text-muted);
 }
-.random-card .card-title { color: #fff; }
-.random-card .card-desc  { color: #94a3b8; }
 .random-card .random-icon-wrap {
-  background: rgba(255, 255, 255, 0.10);
-}
-.random-card:hover {
-  background: #2a384e;
-  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.4);
-  border-color: transparent;
-  border-left-color: #64748b;
-}
-.random-card:hover .random-icon-wrap {
-  background: rgba(255, 255, 255, 0.20);
+  background: rgba(122, 144, 184, 0.12);
 }
 
 /* 2. Bloc "Télécharger + Partager" — deux cartes côte à côte */
@@ -937,6 +923,169 @@ a.programme-action-card:hover {
   pointer-events: none;
   user-select: none;
   -webkit-user-drag: none;
+}
+
+/* Bandeau téléchargement PDF — carte horizontale discrète */
+.download-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 680px;
+  margin: 36px auto 0;
+  padding: 18px 24px;
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-subtle);
+  border-left: 5px solid var(--text-muted);
+  border-radius: var(--r-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.download-banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(32, 58, 106, 0.10);
+  border-color: var(--border-light);
+  border-left-color: var(--text-secondary);
+}
+
+.download-banner-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.download-banner-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.download-banner-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.download-banner-sub {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.download-banner-arrow {
+  font-size: 18px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* Section "Passez le mot" — DA distincte, fond sombre */
+.share-block {
+  background: linear-gradient(135deg, #0f1f45 0%, #1a3060 50%, #162b52 100%);
+  border-radius: var(--r-xl);
+  padding: 36px 28px 32px;
+  margin: 48px auto 0;
+  max-width: 680px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Bande arc-en-ciel à gauche — raccord hero */
+.share-block::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 5px;
+  background: linear-gradient(to bottom, var(--c-rose), var(--c-yellow), var(--c-green), var(--c-blue), var(--c-purple));
+}
+
+/* Halo décoratif */
+.share-block::after {
+  content: '';
+  position: absolute;
+  top: -40%; right: -10%;
+  width: 250px; height: 250px;
+  background: radial-gradient(circle, rgba(233, 46, 108, 0.25) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.share-block-header {
+  text-align: center;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.share-block-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.share-block-sub {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.60);
+}
+
+.share-block-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.share-block-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--r-lg);
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
+  min-height: 200px;
+}
+
+a.share-block-card:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.share-block-card .qr-code-img {
+  width: 110px;
+  height: 110px;
+  display: block;
+  border-radius: 8px;
+  background: #fff;
+  padding: 6px;
+}
+
+.share-block-card-icon {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.share-block-card-text {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.share-block-card-sub {
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.50);
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .share-block { padding: 28px 20px 24px; }
+  .share-block-grid { grid-template-columns: 1fr; }
+  .share-block-card { min-height: auto; padding: 20px 16px; }
 }
 
 /* 3. Bouton "Rejoindre l'équipe" (Footer) */

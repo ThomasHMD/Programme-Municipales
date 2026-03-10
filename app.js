@@ -244,7 +244,10 @@ function renderHomeView() {
     </section>
 
     <!-- Grille des thèmes -->
-    <p class="themes-section-title">Nos ${themes.length} thèmes de programme</p>
+    <section class="team-section" style="margin-top:36px; margin-bottom:0;">
+      <h2 class="team-title">Nos ${themes.length} thèmes de programme</h2>
+      <p class="team-subtitle">Pour changer la ville</p>
+    </section>
     <div class="themes-grid" role="list">
       ${themes.map(t => buildThemeCard(t)).join('')}
       <!-- Bouton "Mesure Aléatoire" — dans la grille -->
@@ -262,24 +265,38 @@ function renderHomeView() {
       </button>
     </div>
 
-    <!-- Bloc programme : télécharger + partager -->
-    <div class="programme-actions">
-      <a href="Programme-Wasquehal-Vivante.pdf" download class="programme-action-card" aria-label="Télécharger le programme complet en PDF">
-        <div class="programme-action-icon" aria-hidden="true">📄</div>
-        <div class="programme-action-text">Télécharger le programme complet</div>
-        <div class="programme-action-sub">Format PDF</div>
-      </a>
-      <div class="programme-action-card programme-action-qr">
-        <div class="programme-action-icon" aria-hidden="true">
+    <!-- Bandeau téléchargement PDF -->
+    <a href="Programme-Wasquehal-Vivante.pdf" download class="download-banner" aria-label="Télécharger le programme complet en PDF">
+      <span class="download-banner-icon" aria-hidden="true">📄</span>
+      <div class="download-banner-body">
+        <div class="download-banner-title">Télécharger le programme complet</div>
+        <div class="download-banner-sub">Format PDF — à imprimer ou partager</div>
+      </div>
+      <span class="download-banner-arrow" aria-hidden="true">↓</span>
+    </a>
+
+    <!-- Section Partage — fond sombre, DA distincte -->
+    <div class="share-block">
+      <div class="share-block-header">
+        <h2 class="share-block-title">Passez le mot</h2>
+        <p class="share-block-sub">Partagez autour de vous — chaque voix compte dimanche</p>
+      </div>
+      <div class="share-block-grid">
+        <div class="share-block-card">
           <img
-            src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=http://wasquehal-vivante.fr/"
-            alt="QR Code vers wasquehal-vivante.fr"
+            src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://partage.wasquehal-vivante.fr/"
+            alt="QR Code vers partage.wasquehal-vivante.fr"
             class="qr-code-img"
             loading="lazy"
           >
+          <div class="share-block-card-text">Faites scanner ce QR code</div>
+          <div class="share-block-card-sub">Vos proches pourront partager le message à leur tour</div>
         </div>
-        <div class="programme-action-text">Partagez le programme</div>
-        <div class="programme-action-sub">Scannez ou partagez wasquehal-vivante.fr</div>
+        <a href="http://partage.wasquehal-vivante.fr/" target="_blank" class="share-block-card" aria-label="Partager le programme">
+          <div class="share-block-card-icon" aria-hidden="true">📣</div>
+          <div class="share-block-card-text">Passer le mot</div>
+          <div class="share-block-card-sub">Partagez via WhatsApp, SMS, Telegram…</div>
+        </a>
       </div>
     </div>
 
